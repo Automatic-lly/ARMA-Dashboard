@@ -190,7 +190,9 @@
                 "53f5e1fb04984dea",
                 "90561ba3074d2b20",
                 "8809755ed6093c08",
-                "d67925dd96dd84b7"
+                "d67925dd96dd84b7",
+                "0f9eb470fd5719c0",
+                "9827aab1d895ac34"
             ]
         ]
     },
@@ -445,7 +447,7 @@
         "styleGlow": false,
         "className": "",
         "x": 950,
-        "y": 180,
+        "y": 160,
         "wires": []
     },
     {
@@ -623,8 +625,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 240,
-        "y": 260,
+        "x": 260,
+        "y": 320,
         "wires": [
             [
                 "65e0b73b49c11368"
@@ -663,7 +665,7 @@
         "pointerupPayload": "",
         "pointerupPayloadType": "str",
         "x": 90,
-        "y": 240,
+        "y": 260,
         "wires": [
             [
                 "6bfcbcdb9a1a1756"
@@ -800,6 +802,388 @@
         "y": 340,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "f44cfcf2a25f9ea9",
+        "type": "function",
+        "z": "bef34cc03ba70852",
+        "name": "function 4",
+        "func": "let mymesg = msg.payload;\nmymesg.pressuresensorvalue = parseInt(Math.random()*50)\nmsg.payload = mymesg;\n// let msg2 = msg;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 440,
+        "wires": [
+            [
+                "65e0b73b49c11368"
+            ]
+        ]
+    },
+    {
+        "id": "709d0fad02ab5431",
+        "type": "ui-button",
+        "z": "bef34cc03ba70852",
+        "group": "0c269151abe35dd2",
+        "name": "My button 4",
+        "label": "Send data",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"pressuresensorvalue\":303,\"pressuresensor\":\"Sens4\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 90,
+        "y": 400,
+        "wires": [
+            [
+                "f44cfcf2a25f9ea9"
+            ]
+        ]
+    },
+    {
+        "id": "0f9eb470fd5719c0",
+        "type": "change",
+        "z": "bef34cc03ba70852",
+        "name": "pressure",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.pressuresensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 360,
+        "wires": [
+            [
+                "123e59a8c0eb21cb",
+                "5b9bf9cdfdf02cbc"
+            ]
+        ]
+    },
+    {
+        "id": "123e59a8c0eb21cb",
+        "type": "ui-gauge",
+        "z": "bef34cc03ba70852",
+        "name": "pressure",
+        "group": "0c269151abe35dd2",
+        "order": 4,
+        "width": 4,
+        "height": 6,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "pressure",
+        "units": "pascal",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "100",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "0",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 940,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "5b9bf9cdfdf02cbc",
+        "type": "ui-chart",
+        "z": "bef34cc03ba70852",
+        "group": "0c269151abe35dd2",
+        "name": "pressure chart",
+        "label": "chart",
+        "order": 5,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#ff0000"
+        ],
+        "gridColorDefault": false,
+        "width": 8,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 940,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5f533c1940c264b4",
+        "type": "ui-gauge",
+        "z": "bef34cc03ba70852",
+        "name": "turbidity",
+        "group": "0c269151abe35dd2",
+        "order": 4,
+        "width": 4,
+        "height": 6,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "turbidity",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "100",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "0",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 920,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "7c0cb67973b58105",
+        "type": "ui-chart",
+        "z": "bef34cc03ba70852",
+        "group": "0c269151abe35dd2",
+        "name": "turb chart",
+        "label": "chart",
+        "order": 5,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#ff0000"
+        ],
+        "gridColorDefault": false,
+        "width": 8,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 920,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1f9f5dc5bafad002",
+        "type": "function",
+        "z": "bef34cc03ba70852",
+        "name": "function 5",
+        "func": "let mymesg = msg.payload;\nmymesg.turbsensorvalue = parseInt(Math.random()*50)\nmsg.payload = mymesg;\n// let msg2 = msg;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 560,
+        "wires": [
+            [
+                "65e0b73b49c11368"
+            ]
+        ]
+    },
+    {
+        "id": "0253bfdb280d5876",
+        "type": "ui-button",
+        "z": "bef34cc03ba70852",
+        "group": "0c269151abe35dd2",
+        "name": "My button5",
+        "label": "Send data",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"turbsensorvalue\":304,\"turbsensor\":\"Sens5\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 90,
+        "y": 520,
+        "wires": [
+            [
+                "1f9f5dc5bafad002"
+            ]
+        ]
+    },
+    {
+        "id": "9827aab1d895ac34",
+        "type": "change",
+        "z": "bef34cc03ba70852",
+        "name": "turbidity",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.turbsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 420,
+        "wires": [
+            [
+                "5f533c1940c264b4",
+                "7c0cb67973b58105"
+            ]
         ]
     }
 ]
