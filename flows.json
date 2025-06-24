@@ -1,0 +1,805 @@
+[
+    {
+        "id": "bef34cc03ba70852",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "50b9207d502028e1",
+        "type": "tls-config",
+        "name": "ARMA-TLS",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "8805dbe759dbb5b938494f05b7c2712546d9ef678ba719f4cf40f330b4d290de-certificate.pem.crt",
+        "keyname": "8805dbe759dbb5b938494f05b7c2712546d9ef678ba719f4cf40f330b4d290de-private.pem.key",
+        "caname": "AmazonRootCA1.pem",
+        "servername": "",
+        "verifyservercert": true,
+        "alpnprotocol": ""
+    },
+    {
+        "id": "d16e753b1c0fb4e4",
+        "type": "mqtt-broker",
+        "name": "ARMA-Q",
+        "broker": "d002332310q6wvd4iri8x-ats.iot.ap-south-1.amazonaws.com",
+        "port": "8883",
+        "tls": "50b9207d502028e1",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "3fa52c4fdd1b96be",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": false,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": true
+    },
+    {
+        "id": "da9ef61b6c86fd56",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "91f0b6a25b383ff1",
+        "type": "ui-page",
+        "name": "Dropdown",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "0c269151abe35dd2",
+        "type": "ui-group",
+        "name": "sunlight ",
+        "page": "91f0b6a25b383ff1",
+        "width": "12",
+        "height": "8",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "28c59f40f4dd8986",
+        "type": "ui-group",
+        "name": "Group 2",
+        "page": "91f0b6a25b383ff1",
+        "width": 12,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "7c974ec7f34de97b",
+        "type": "ui-group",
+        "name": "Group Name 3",
+        "page": "",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "dcb66fe205fb3478",
+        "type": "mqtt in",
+        "z": "bef34cc03ba70852",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 480,
+        "y": 100,
+        "wires": [
+            [
+                "53f5e1fb04984dea",
+                "90561ba3074d2b20",
+                "8809755ed6093c08",
+                "d67925dd96dd84b7"
+            ]
+        ]
+    },
+    {
+        "id": "65e0b73b49c11368",
+        "type": "mqtt out",
+        "z": "bef34cc03ba70852",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 410,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "53f5e1fb04984dea",
+        "type": "debug",
+        "z": "bef34cc03ba70852",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "9eeaa40ffd8b91ae",
+        "type": "ui-button",
+        "z": "bef34cc03ba70852",
+        "group": "0c269151abe35dd2",
+        "name": "My Button",
+        "label": "Send Data",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"LDRsensorvalue\":300,\"LDRsensor\":\"Sens1\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 80,
+        "y": 80,
+        "wires": [
+            [
+                "a1c912e3ea148c30"
+            ]
+        ]
+    },
+    {
+        "id": "7818c32a74496dc3",
+        "type": "ui-gauge",
+        "z": "bef34cc03ba70852",
+        "name": "LDR",
+        "group": "0c269151abe35dd2",
+        "order": 1,
+        "width": "4",
+        "height": 5,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "sunlight ",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "100",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 930,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "90561ba3074d2b20",
+        "type": "change",
+        "z": "bef34cc03ba70852",
+        "name": "LDR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.LDRsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 140,
+        "wires": [
+            [
+                "7818c32a74496dc3",
+                "3e72855d76a2c208"
+            ]
+        ]
+    },
+    {
+        "id": "a1c912e3ea148c30",
+        "type": "function",
+        "z": "bef34cc03ba70852",
+        "name": "function 1",
+        "func": "let mymsg = msg.payload;\nmymsg.LDRsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 120,
+        "wires": [
+            [
+                "65e0b73b49c11368"
+            ]
+        ]
+    },
+    {
+        "id": "73dabe7193a9060f",
+        "type": "function",
+        "z": "bef34cc03ba70852",
+        "name": "function 2",
+        "func": "let mymesg = msg.payload;\nmymesg.watersensorvalue = parseInt(Math.random()*50)\nmsg.payload = mymesg;\n// let msg2 = msg;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 200,
+        "wires": [
+            [
+                "65e0b73b49c11368"
+            ]
+        ]
+    },
+    {
+        "id": "8809755ed6093c08",
+        "type": "change",
+        "z": "bef34cc03ba70852",
+        "name": "water",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.watersensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 200,
+        "wires": [
+            [
+                "68787b6ebff37371",
+                "fe2888d3527c26a3"
+            ]
+        ]
+    },
+    {
+        "id": "68787b6ebff37371",
+        "type": "ui-gauge",
+        "z": "bef34cc03ba70852",
+        "name": "water level",
+        "group": "28c59f40f4dd8986",
+        "order": 1,
+        "width": 4,
+        "height": 5,
+        "gtype": "gauge-tank",
+        "gstyle": "needle",
+        "title": "Water level",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "100",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "0",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 950,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "3e72855d76a2c208",
+        "type": "ui-chart",
+        "z": "bef34cc03ba70852",
+        "group": "0c269151abe35dd2",
+        "name": "LDR chart",
+        "label": "chart",
+        "order": 2,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 7,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 940,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe2888d3527c26a3",
+        "type": "ui-chart",
+        "z": "bef34cc03ba70852",
+        "group": "28c59f40f4dd8986",
+        "name": "water chart",
+        "label": "chart",
+        "order": 2,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#00bfff"
+        ],
+        "gridColorDefault": false,
+        "width": 8,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 930,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "97b0e09491df8320",
+        "type": "ui-button",
+        "z": "bef34cc03ba70852",
+        "group": "28c59f40f4dd8986",
+        "name": "My button 2",
+        "label": "Send data",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"watersensorvalue\":301,\"watersensor\":\"Sens2\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 90,
+        "y": 160,
+        "wires": [
+            [
+                "73dabe7193a9060f"
+            ]
+        ]
+    },
+    {
+        "id": "6bfcbcdb9a1a1756",
+        "type": "function",
+        "z": "bef34cc03ba70852",
+        "name": "function 3",
+        "func": "let mymesg = msg.payload;\nmymesg.tempsensorvalue = parseInt(Math.random()*50)\nmsg.payload = mymesg;\n// let msg2 = msg;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 260,
+        "wires": [
+            [
+                "65e0b73b49c11368"
+            ]
+        ]
+    },
+    {
+        "id": "3b079c565330f967",
+        "type": "ui-button",
+        "z": "bef34cc03ba70852",
+        "group": "0c269151abe35dd2",
+        "name": "My button 3",
+        "label": "Send data",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"tempsensorvalue\":302,\"tempsensor\":\"Sens3\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 90,
+        "y": 240,
+        "wires": [
+            [
+                "6bfcbcdb9a1a1756"
+            ]
+        ]
+    },
+    {
+        "id": "d67925dd96dd84b7",
+        "type": "change",
+        "z": "bef34cc03ba70852",
+        "name": "temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tempsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 260,
+        "wires": [
+            [
+                "e10980cd67387c26",
+                "f09bcf7027c6bb25"
+            ]
+        ]
+    },
+    {
+        "id": "e10980cd67387c26",
+        "type": "ui-gauge",
+        "z": "bef34cc03ba70852",
+        "name": "temp ",
+        "group": "0c269151abe35dd2",
+        "order": 4,
+        "width": 4,
+        "height": 6,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "temp",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "100",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "0",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 930,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "f09bcf7027c6bb25",
+        "type": "ui-chart",
+        "z": "bef34cc03ba70852",
+        "group": "0c269151abe35dd2",
+        "name": "temp chart",
+        "label": "chart",
+        "order": 5,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#ff0000"
+        ],
+        "gridColorDefault": false,
+        "width": 8,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 930,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    }
+]
