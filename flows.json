@@ -2,7 +2,135 @@
     {
         "id": "bef34cc03ba70852",
         "type": "tab",
-        "label": "Flow 3",
+        "label": "ARMA",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4f066a2765eb3e8e",
+        "type": "tab",
+        "label": "Global",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4214f9bd612191e3",
+        "type": "tab",
+        "label": "FARM1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3db004669120fa05",
+        "type": "tab",
+        "label": "pH ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2557561621203113",
+        "type": "tab",
+        "label": "TDS",
+        "disabled": false,
+        "info": "****",
+        "env": []
+    },
+    {
+        "id": "7579ba585a58db4a",
+        "type": "tab",
+        "label": "LDR",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9e72c0c9396826ba",
+        "type": "tab",
+        "label": "PRESSURE",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "74956b86c8e784d3",
+        "type": "tab",
+        "label": "EC",
+        "disabled": false,
+        "info": "********",
+        "env": []
+    },
+    {
+        "id": "02c4e23538951b3b",
+        "type": "tab",
+        "label": "Temp",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "eaf3584b51ce2f2d",
+        "type": "tab",
+        "label": "TURBIDITY",
+        "disabled": false,
+        "info": "****",
+        "env": []
+    },
+    {
+        "id": "6e6027109c1f07bd",
+        "type": "tab",
+        "label": "DO",
+        "disabled": false,
+        "info": "********",
+        "env": []
+    },
+    {
+        "id": "c74204a9a066aef5",
+        "type": "tab",
+        "label": "ORP",
+        "disabled": false,
+        "info": "************",
+        "env": []
+    },
+    {
+        "id": "c7a84c26b80d7398",
+        "type": "tab",
+        "label": "Ammonia Nitrate",
+        "disabled": false,
+        "info": "********",
+        "env": []
+    },
+    {
+        "id": "1746a8e88e733c72",
+        "type": "tab",
+        "label": "ENV moisture",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a3eebc9152987c0e",
+        "type": "tab",
+        "label": "GUAGES",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bf2a79eb3678c516",
+        "type": "tab",
+        "label": "BUTTON",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4c51ccca9eebd239",
+        "type": "tab",
+        "label": "CHART",
         "disabled": false,
         "info": "",
         "env": []
@@ -59,7 +187,7 @@
         "name": "My Dashboard",
         "path": "/dashboard",
         "appIcon": "",
-        "includeClientData": false,
+        "includeClientData": true,
         "acceptsClientConfig": [
             "ui-notification",
             "ui-control"
@@ -79,7 +207,7 @@
         "name": "Default Theme",
         "colors": {
             "surface": "#ffffff",
-            "primary": "#0094CE",
+            "primary": "#0094ce",
             "bgPage": "#eeeeee",
             "groupBg": "#ffffff",
             "groupOutline": "#cccccc"
@@ -95,7 +223,7 @@
     {
         "id": "91f0b6a25b383ff1",
         "type": "ui-page",
-        "name": "Dropdown",
+        "name": "ARMA",
         "ui": "3fa52c4fdd1b96be",
         "path": "/page1",
         "icon": "home",
@@ -125,8 +253,8 @@
         ],
         "order": 1,
         "className": "",
-        "visible": "true",
-        "disabled": "false"
+        "visible": true,
+        "disabled": false
     },
     {
         "id": "0c269151abe35dd2",
@@ -164,6 +292,844 @@
         "width": 6,
         "height": 1,
         "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "3bf1742bb75c013e",
+        "type": "ui-page",
+        "name": "Global",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page2",
+        "icon": "",
+        "layout": "tabs",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 4,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "68e307978bed89ba",
+        "type": "ui-page",
+        "name": "FARM 1",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page3",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 5,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "119301543ab6085a",
+        "type": "ui-page",
+        "name": "Temperature",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page4",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 6,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "a563ef572ed2c3f6",
+        "type": "ui-page",
+        "name": "pH sensor",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page5",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "cafb492450f505f0",
+        "type": "ui-page",
+        "name": "LDR",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page6",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 7,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "642fa90a2ea68b95",
+        "type": "ui-spacer",
+        "group": "",
+        "name": "spacer",
+        "tooltip": "",
+        "order": 1,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "4c907440faef1b37",
+        "type": "ui-page",
+        "name": "TDS sensor",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page7",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "56b3361ae85263f2",
+        "type": "ui-group",
+        "name": "TDS",
+        "page": "4c907440faef1b37",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "163f394ca0057f5d",
+        "type": "ui-group",
+        "name": "LDR",
+        "page": "cafb492450f505f0",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "bd417bbded2d4fe1",
+        "type": "ui-spacer",
+        "group": "163f394ca0057f5d",
+        "name": "spacer",
+        "tooltip": "",
+        "order": 1,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "6c1ed9880202f722",
+        "type": "ui-page",
+        "name": "pressure",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page8",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 8,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "b4a266ecfd424fd7",
+        "type": "ui-group",
+        "name": "pressure",
+        "page": "6c1ed9880202f722",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "c9af80f12525737b",
+        "type": "ui-group",
+        "name": "temp",
+        "page": "119301543ab6085a",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "30f5eae6ef9fbb7c",
+        "type": "ui-spacer",
+        "group": "c9af80f12525737b",
+        "name": "spacer",
+        "tooltip": "",
+        "order": 1,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "7f0c71e74b1a4621",
+        "type": "ui-spacer",
+        "group": "c9af80f12525737b",
+        "name": "spacer",
+        "tooltip": "",
+        "order": 3,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "7ae417fe8c25c2b5",
+        "type": "ui-page",
+        "name": "TURBIDITY",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page9",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 9,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "451bad371ae6f420",
+        "type": "ui-group",
+        "name": "turb",
+        "page": "7ae417fe8c25c2b5",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a17c935f30930991",
+        "type": "ui-page",
+        "name": "DO",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page10",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 10,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "aee1dd06a5ac556b",
+        "type": "ui-group",
+        "name": "DO",
+        "page": "a17c935f30930991",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "634260cbcd40c1f3",
+        "type": "ui-spacer",
+        "group": "aee1dd06a5ac556b",
+        "name": "spacer",
+        "tooltip": "",
+        "order": 1,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "2cd295986a9720d4",
+        "type": "ui-page",
+        "name": "ORP",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page11",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 11,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "3e693f7b3a458203",
+        "type": "ui-group",
+        "name": "ORP",
+        "page": "2cd295986a9720d4",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "f2b57e8015d8bfc8",
+        "type": "ui-group",
+        "name": "pH value ",
+        "page": "a563ef572ed2c3f6",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "18f9c63d51b92264",
+        "type": "ui-spacer",
+        "group": "f2b57e8015d8bfc8",
+        "name": "spacer",
+        "tooltip": "",
+        "order": 1,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "07b990f5affc9494",
+        "type": "ui-page",
+        "name": "EC",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page12",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 12,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "4d16dfebb2051d7f",
+        "type": "ui-group",
+        "name": "EC",
+        "page": "07b990f5affc9494",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "08cfbfa103ef316c",
+        "type": "ui-page",
+        "name": "Ammonia Nitrate",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page13",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 13,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "5a7244ef8378faed",
+        "type": "ui-group",
+        "name": "AN(ammonia nitrate",
+        "page": "08cfbfa103ef316c",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "53739af5d11303a6",
+        "type": "ui-page",
+        "name": "ENV moisture",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page15",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 14,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "4dc96d210264bf08",
+        "type": "ui-group",
+        "name": "ENV",
+        "page": "53739af5d11303a6",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "1b93c3f73afab84d",
+        "type": "ui-page",
+        "name": "GUAGES",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page16",
+        "icon": "home",
+        "layout": "flex",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 15,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "489c228f34a0409b",
+        "type": "ui-group",
+        "name": "GUAGES",
+        "page": "1b93c3f73afab84d",
+        "width": 15,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "51204fefe119d509",
+        "type": "ui-page",
+        "name": "BUTTON",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page17",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 16,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "6ba1c753604ec92f",
+        "type": "ui-group",
+        "name": "MOCK BUTTON",
+        "page": "51204fefe119d509",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "1c03e47f29e15987",
+        "type": "ui-page",
+        "name": "CHART",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page18",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 17,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "9ec07271f2a5b2d1",
+        "type": "ui-group",
+        "name": "CHART",
+        "page": "1c03e47f29e15987",
+        "width": 12,
+        "height": 1,
+        "order": 1,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -237,10 +1203,10 @@
         "z": "bef34cc03ba70852",
         "group": "0c269151abe35dd2",
         "name": "My Button",
-        "label": "Send Data",
-        "order": 3,
-        "width": 0,
-        "height": 0,
+        "label": "Send Data LDR",
+        "order": 5,
+        "width": 3,
+        "height": "1",
         "emulateClick": true,
         "tooltip": "",
         "color": "",
@@ -277,8 +1243,8 @@
         "name": "LDR",
         "group": "0c269151abe35dd2",
         "order": 1,
-        "width": "4",
-        "height": 5,
+        "width": "3",
+        "height": "2",
         "gtype": "gauge-half",
         "gstyle": "needle",
         "title": "sunlight ",
@@ -399,7 +1365,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 650,
+        "x": 770,
         "y": 200,
         "wires": [
             [
@@ -446,8 +1412,8 @@
         "styleRounded": true,
         "styleGlow": false,
         "className": "",
-        "x": 950,
-        "y": 160,
+        "x": 970,
+        "y": 220,
         "wires": []
     },
     {
@@ -457,7 +1423,7 @@
         "group": "0c269151abe35dd2",
         "name": "LDR chart",
         "label": "chart",
-        "order": 2,
+        "order": 12,
         "chartType": "line",
         "category": "topic",
         "categoryType": "msg",
@@ -502,11 +1468,11 @@
             "#17eeca"
         ],
         "gridColorDefault": false,
-        "width": 7,
-        "height": 8,
+        "width": "4",
+        "height": "4",
         "className": "",
         "interpolation": "linear",
-        "x": 940,
+        "x": 1380,
         "y": 120,
         "wires": [
             []
@@ -568,8 +1534,8 @@
         "height": 8,
         "className": "",
         "interpolation": "linear",
-        "x": 930,
-        "y": 240,
+        "x": 1190,
+        "y": 360,
         "wires": [
             []
         ]
@@ -580,7 +1546,7 @@
         "z": "bef34cc03ba70852",
         "group": "28c59f40f4dd8986",
         "name": "My button 2",
-        "label": "Send data",
+        "label": "Send data water",
         "order": 3,
         "width": 0,
         "height": 0,
@@ -639,7 +1605,7 @@
         "z": "bef34cc03ba70852",
         "group": "0c269151abe35dd2",
         "name": "My button 3",
-        "label": "Send data",
+        "label": "Send data temp",
         "order": 6,
         "width": 0,
         "height": 0,
@@ -692,7 +1658,7 @@
         "to": "",
         "reg": false,
         "x": 650,
-        "y": 260,
+        "y": 460,
         "wires": [
             [
                 "e10980cd67387c26",
@@ -706,9 +1672,9 @@
         "z": "bef34cc03ba70852",
         "name": "temp ",
         "group": "0c269151abe35dd2",
-        "order": 4,
-        "width": 4,
-        "height": 6,
+        "order": 2,
+        "width": "3",
+        "height": "2",
         "gtype": "gauge-half",
         "gstyle": "needle",
         "title": "temp",
@@ -738,8 +1704,8 @@
         "styleRounded": true,
         "styleGlow": false,
         "className": "",
-        "x": 930,
-        "y": 280,
+        "x": 1150,
+        "y": 480,
         "wires": []
     },
     {
@@ -749,7 +1715,7 @@
         "group": "0c269151abe35dd2",
         "name": "temp chart",
         "label": "chart",
-        "order": 5,
+        "order": 9,
         "chartType": "line",
         "category": "topic",
         "categoryType": "msg",
@@ -831,7 +1797,7 @@
         "group": "0c269151abe35dd2",
         "name": "My button 4",
         "label": "Send data",
-        "order": 6,
+        "order": 8,
         "width": 0,
         "height": 0,
         "emulateClick": true,
@@ -883,7 +1849,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 360,
+        "y": 520,
         "wires": [
             [
                 "123e59a8c0eb21cb",
@@ -897,9 +1863,9 @@
         "z": "bef34cc03ba70852",
         "name": "pressure",
         "group": "0c269151abe35dd2",
-        "order": 4,
-        "width": 4,
-        "height": 6,
+        "order": 3,
+        "width": "3",
+        "height": "2",
         "gtype": "gauge-half",
         "gstyle": "needle",
         "title": "pressure",
@@ -940,7 +1906,7 @@
         "group": "0c269151abe35dd2",
         "name": "pressure chart",
         "label": "chart",
-        "order": 5,
+        "order": 7,
         "chartType": "line",
         "category": "topic",
         "categoryType": "msg",
@@ -1002,8 +1968,8 @@
         "name": "turbidity",
         "group": "0c269151abe35dd2",
         "order": 4,
-        "width": 4,
-        "height": 6,
+        "width": "3",
+        "height": "2",
         "gtype": "gauge-half",
         "gstyle": "needle",
         "title": "turbidity",
@@ -1044,7 +2010,7 @@
         "group": "0c269151abe35dd2",
         "name": "turb chart",
         "label": "chart",
-        "order": 5,
+        "order": 10,
         "chartType": "line",
         "category": "topic",
         "categoryType": "msg",
@@ -1094,7 +2060,7 @@
         "className": "",
         "interpolation": "linear",
         "x": 920,
-        "y": 520,
+        "y": 540,
         "wires": [
             []
         ]
@@ -1126,7 +2092,7 @@
         "group": "0c269151abe35dd2",
         "name": "My button5",
         "label": "Send data",
-        "order": 6,
+        "order": 11,
         "width": 0,
         "height": 0,
         "emulateClick": true,
@@ -1177,13 +2143,5834 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
-        "y": 420,
+        "x": 640,
+        "y": 600,
         "wires": [
             [
                 "5f533c1940c264b4",
                 "7c0cb67973b58105"
             ]
         ]
+    },
+    {
+        "id": "ac4deef8886344b7",
+        "type": "ui-notification",
+        "z": "4f066a2765eb3e8e",
+        "ui": "",
+        "position": "top right",
+        "colorDefault": true,
+        "color": null,
+        "displayTime": "3",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": false,
+        "className": "",
+        "name": "",
+        "x": 670,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33c3950fd7817edb",
+        "type": "ui-gauge",
+        "z": "4214f9bd612191e3",
+        "name": "",
+        "group": "",
+        "order": 0,
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-34",
+        "gstyle": "needle",
+        "title": "gauge",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": 10,
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 230,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "2b55d86c2942fc03",
+        "type": "ui-table",
+        "z": "4214f9bd612191e3",
+        "name": "",
+        "label": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": null,
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "append",
+        "x": 470,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33a50285e679041a",
+        "type": "ui-button",
+        "z": "3db004669120fa05",
+        "group": "f2b57e8015d8bfc8",
+        "name": "My Button pH",
+        "label": "Send Data",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"pHsensorvalue\":100,\"pHsensor\":\"Sens1\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "174f355e22db9e64"
+            ]
+        ]
+    },
+    {
+        "id": "174f355e22db9e64",
+        "type": "function",
+        "z": "3db004669120fa05",
+        "name": "function 6",
+        "func": "let mymsg = msg.payload;\nmymsg.pHsensorvalue = parseInt(Math.random() * 7);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 200,
+        "wires": [
+            [
+                "312306f89698e215"
+            ]
+        ]
+    },
+    {
+        "id": "4dac99e1da425207",
+        "type": "mqtt in",
+        "z": "3db004669120fa05",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 540,
+        "y": 360,
+        "wires": [
+            [
+                "24b7331e88796b6b",
+                "e2866972f57c564c"
+            ]
+        ]
+    },
+    {
+        "id": "312306f89698e215",
+        "type": "mqtt out",
+        "z": "3db004669120fa05",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 370,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "24b7331e88796b6b",
+        "type": "debug",
+        "z": "3db004669120fa05",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "b585630e3bda0fe7",
+        "type": "ui-gauge",
+        "z": "3db004669120fa05",
+        "name": "pH",
+        "group": "f2b57e8015d8bfc8",
+        "order": 2,
+        "width": "4",
+        "height": 5,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "pH",
+        "units": "",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ff0000"
+            },
+            {
+                "from": "2",
+                "color": "#ffbf00"
+            },
+            {
+                "from": "3",
+                "color": "#fbff00"
+            },
+            {
+                "from": "5",
+                "color": "#90ee90"
+            },
+            {
+                "from": "7",
+                "color": "#00ff00"
+            },
+            {
+                "from": "9",
+                "color": "#add8e6"
+            },
+            {
+                "from": "12",
+                "color": "#cf9fff"
+            },
+            {
+                "from": "14",
+                "color": "#0000ff"
+            }
+        ],
+        "min": 0,
+        "max": "20",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 930,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "7034fe65c47fd875",
+        "type": "ui-chart",
+        "z": "3db004669120fa05",
+        "group": "f2b57e8015d8bfc8",
+        "name": "pH chart",
+        "label": "chart",
+        "order": 4,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 7,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 900,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2866972f57c564c",
+        "type": "change",
+        "z": "3db004669120fa05",
+        "name": "pH",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.pHsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 360,
+        "wires": [
+            [
+                "b585630e3bda0fe7",
+                "7034fe65c47fd875"
+            ]
+        ]
+    },
+    {
+        "id": "1844e14a01c7dca7",
+        "type": "ui-button",
+        "z": "2557561621203113",
+        "group": "56b3361ae85263f2",
+        "name": "TDS Button",
+        "label": "button",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"TDSsensorvalue\":101,\"TDSsensor\":\"Sens2\"}",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 210,
+        "y": 160,
+        "wires": [
+            [
+                "020e91e0c0294eb5"
+            ]
+        ]
+    },
+    {
+        "id": "e5c3bf3a4031db51",
+        "type": "mqtt out",
+        "z": "2557561621203113",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 470,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "ad46cf7dba2e7d90",
+        "type": "mqtt in",
+        "z": "2557561621203113",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 620,
+        "y": 220,
+        "wires": [
+            [
+                "7150812e08c3478e"
+            ]
+        ]
+    },
+    {
+        "id": "d65a563fbab61fb0",
+        "type": "debug",
+        "z": "2557561621203113",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "7150812e08c3478e",
+        "type": "change",
+        "z": "2557561621203113",
+        "name": "TDS",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.TDSsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 260,
+        "wires": [
+            [
+                "e2f7ef5a60c84f55",
+                "0b17a37e6392d0e2"
+            ]
+        ]
+    },
+    {
+        "id": "e2f7ef5a60c84f55",
+        "type": "ui-gauge",
+        "z": "2557561621203113",
+        "name": "TDS",
+        "group": "56b3361ae85263f2",
+        "order": 1,
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "1000",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1070,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "0b17a37e6392d0e2",
+        "type": "ui-chart",
+        "z": "2557561621203113",
+        "group": "56b3361ae85263f2",
+        "name": "TDS Chart",
+        "label": "chart",
+        "order": 3,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1050,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "020e91e0c0294eb5",
+        "type": "function",
+        "z": "2557561621203113",
+        "name": "function 7",
+        "func": "let mymsg = msg.payload;\nmymsg.TDSsensorvalue = parseInt(Math.random() * 100);\nmsg.payload = mymsg;\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 240,
+        "wires": [
+            [
+                "e5c3bf3a4031db51"
+            ]
+        ]
+    },
+    {
+        "id": "beeda7e4a0f13c44",
+        "type": "mqtt in",
+        "z": "7579ba585a58db4a",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 540,
+        "y": 200,
+        "wires": [
+            [
+                "753e5d223a16f16c",
+                "270454fdebd24acf"
+            ]
+        ]
+    },
+    {
+        "id": "753e5d223a16f16c",
+        "type": "debug",
+        "z": "7579ba585a58db4a",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "c630154c758877f2",
+        "type": "ui-button",
+        "z": "7579ba585a58db4a",
+        "group": "163f394ca0057f5d",
+        "name": "My Button",
+        "label": "Send Data",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"LDRsensorvalue\":300,\"LDRsensor\":\"Sens1\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "8b49098db0940698"
+            ]
+        ]
+    },
+    {
+        "id": "092c33d8b97b730a",
+        "type": "ui-gauge",
+        "z": "7579ba585a58db4a",
+        "name": "LDR",
+        "group": "163f394ca0057f5d",
+        "order": 2,
+        "width": "4",
+        "height": 5,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "sunlight ",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "100",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 990,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8b49098db0940698",
+        "type": "function",
+        "z": "7579ba585a58db4a",
+        "name": "function 8",
+        "func": "let mymsg = msg.payload;\nmymsg.LDRsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 240,
+        "wires": [
+            [
+                "8788a2d08a6d7e3d"
+            ]
+        ]
+    },
+    {
+        "id": "ca6cd151f71ff47a",
+        "type": "ui-chart",
+        "z": "7579ba585a58db4a",
+        "group": "163f394ca0057f5d",
+        "name": "LDR chart",
+        "label": "chart",
+        "order": 4,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 7,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1000,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8788a2d08a6d7e3d",
+        "type": "mqtt out",
+        "z": "7579ba585a58db4a",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 430,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "270454fdebd24acf",
+        "type": "change",
+        "z": "7579ba585a58db4a",
+        "name": "LDR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.LDRsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 380,
+        "wires": [
+            [
+                "092c33d8b97b730a",
+                "ca6cd151f71ff47a"
+            ]
+        ]
+    },
+    {
+        "id": "0b70fb34990b11a0",
+        "type": "mqtt in",
+        "z": "9e72c0c9396826ba",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 560,
+        "y": 220,
+        "wires": [
+            [
+                "e7c1c059a486dc77",
+                "1f6add3f38709c06"
+            ]
+        ]
+    },
+    {
+        "id": "e7c1c059a486dc77",
+        "type": "debug",
+        "z": "9e72c0c9396826ba",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "21fabb062dd05c46",
+        "type": "ui-button",
+        "z": "9e72c0c9396826ba",
+        "group": "b4a266ecfd424fd7",
+        "name": "PRESSURE Button",
+        "label": "Send Data",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"pressuresensorvalue\":102,\"pressuresensor\":\"Sens3\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 190,
+        "y": 200,
+        "wires": [
+            [
+                "4cc9383ec9a405e8"
+            ]
+        ]
+    },
+    {
+        "id": "45519617a63f6c98",
+        "type": "ui-gauge",
+        "z": "9e72c0c9396826ba",
+        "name": "pressure",
+        "group": "b4a266ecfd424fd7",
+        "order": 1,
+        "width": "4",
+        "height": 5,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "sunlight ",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "100",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1020,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "4cc9383ec9a405e8",
+        "type": "function",
+        "z": "9e72c0c9396826ba",
+        "name": "function 9",
+        "func": "let mymsg = msg.payload;\nmymsg.pressuresensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 260,
+        "wires": [
+            [
+                "79457147eccc37d6"
+            ]
+        ]
+    },
+    {
+        "id": "c0968083e86c0e59",
+        "type": "ui-chart",
+        "z": "9e72c0c9396826ba",
+        "group": "b4a266ecfd424fd7",
+        "name": "Pressure chart",
+        "label": "chart",
+        "order": 2,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 7,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1000,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79457147eccc37d6",
+        "type": "mqtt out",
+        "z": "9e72c0c9396826ba",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 450,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "1f6add3f38709c06",
+        "type": "change",
+        "z": "9e72c0c9396826ba",
+        "name": "pressure",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.pressuresensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 260,
+        "wires": [
+            [
+                "45519617a63f6c98",
+                "c0968083e86c0e59"
+            ]
+        ]
+    },
+    {
+        "id": "77156e8c697c87e0",
+        "type": "mqtt in",
+        "z": "74956b86c8e784d3",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 520,
+        "y": 320,
+        "wires": [
+            [
+                "5417b08de7c2b915",
+                "b02d2ec5cd67a7cf"
+            ]
+        ]
+    },
+    {
+        "id": "5417b08de7c2b915",
+        "type": "debug",
+        "z": "74956b86c8e784d3",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "70ee64eb70454feb",
+        "type": "ui-button",
+        "z": "74956b86c8e784d3",
+        "group": "4d16dfebb2051d7f",
+        "name": "EC",
+        "label": "Send Data",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"ECsensorvalue\":107,\"ECsensor\":\"Sens8\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 185,
+        "y": 221.1428680419922,
+        "wires": [
+            [
+                "764b1b06029add1e"
+            ]
+        ]
+    },
+    {
+        "id": "8e7fa162f35ecca8",
+        "type": "ui-gauge",
+        "z": "74956b86c8e784d3",
+        "name": "Electrical conductivity (EC)",
+        "group": "4d16dfebb2051d7f",
+        "order": 1,
+        "width": "4",
+        "height": 5,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "EC",
+        "units": "mV",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "-300",
+                "color": "#0d0d0d"
+            },
+            {
+                "from": "-100",
+                "color": "#ff0000"
+            },
+            {
+                "from": "0",
+                "color": "#eaddca"
+            },
+            {
+                "from": "100",
+                "color": "#ff7300"
+            },
+            {
+                "from": "300",
+                "color": "#ffea00"
+            },
+            {
+                "from": "600",
+                "color": "#00ff00"
+            }
+        ],
+        "min": "-300",
+        "max": "600",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1090,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "764b1b06029add1e",
+        "type": "function",
+        "z": "74956b86c8e784d3",
+        "name": "EC",
+        "func": "let mymsg = msg.payload;\nmymsg.ECsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 360,
+        "wires": [
+            [
+                "dbcdaa6dd14dd00b"
+            ]
+        ]
+    },
+    {
+        "id": "3f900b60deee88ed",
+        "type": "ui-chart",
+        "z": "74956b86c8e784d3",
+        "group": "4d16dfebb2051d7f",
+        "name": "EC chart",
+        "label": "chart",
+        "order": 3,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 7,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1015,
+        "y": 401.1428680419922,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dbcdaa6dd14dd00b",
+        "type": "mqtt out",
+        "z": "74956b86c8e784d3",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 430,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "b02d2ec5cd67a7cf",
+        "type": "change",
+        "z": "74956b86c8e784d3",
+        "name": "EC",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ECsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 360,
+        "wires": [
+            [
+                "8e7fa162f35ecca8",
+                "3f900b60deee88ed"
+            ]
+        ]
+    },
+    {
+        "id": "11ebc8572c93a0ad",
+        "type": "mqtt in",
+        "z": "02c4e23538951b3b",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 600,
+        "y": 300,
+        "wires": [
+            [
+                "22c0671206161973",
+                "b5e266ed5794dfab"
+            ]
+        ]
+    },
+    {
+        "id": "22c0671206161973",
+        "type": "debug",
+        "z": "02c4e23538951b3b",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "942ab9f16d656de6",
+        "type": "ui-button",
+        "z": "02c4e23538951b3b",
+        "group": "c9af80f12525737b",
+        "name": "temperature Button",
+        "label": "Send Data",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"tempsensorvalue\":103,\"tempsensor\":\"Sens4\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 230,
+        "y": 280,
+        "wires": [
+            [
+                "654f7cd331d7f094"
+            ]
+        ]
+    },
+    {
+        "id": "f9c12f3a8e8da0fa",
+        "type": "ui-gauge",
+        "z": "02c4e23538951b3b",
+        "name": "temperature",
+        "group": "c9af80f12525737b",
+        "order": 2,
+        "width": "4",
+        "height": 5,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Temperature",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "100",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1070,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "654f7cd331d7f094",
+        "type": "function",
+        "z": "02c4e23538951b3b",
+        "name": "function 10",
+        "func": "let mymsg = msg.payload;\nmymsg.tempsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 340,
+        "wires": [
+            [
+                "8c8055d382db731e"
+            ]
+        ]
+    },
+    {
+        "id": "902d30b9a0af0b7e",
+        "type": "ui-chart",
+        "z": "02c4e23538951b3b",
+        "group": "c9af80f12525737b",
+        "name": "temperature chart",
+        "label": "chart",
+        "order": 5,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 7,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1090,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c8055d382db731e",
+        "type": "mqtt out",
+        "z": "02c4e23538951b3b",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 490,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b5e266ed5794dfab",
+        "type": "change",
+        "z": "02c4e23538951b3b",
+        "name": "temperature",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tempsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 340,
+        "wires": [
+            [
+                "f9c12f3a8e8da0fa",
+                "902d30b9a0af0b7e"
+            ]
+        ]
+    },
+    {
+        "id": "d54c66a04478e43c",
+        "type": "mqtt in",
+        "z": "eaf3584b51ce2f2d",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 435,
+        "y": 218.8571319580078,
+        "wires": [
+            [
+                "7f18680f79e6221a",
+                "29f2aeab827e7738"
+            ]
+        ]
+    },
+    {
+        "id": "7f18680f79e6221a",
+        "type": "debug",
+        "z": "eaf3584b51ce2f2d",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "9d73b22aa1d46f56",
+        "type": "ui-button",
+        "z": "eaf3584b51ce2f2d",
+        "group": "451bad371ae6f420",
+        "name": "turbidity",
+        "label": "Send Data",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"turbsensorvalue\":104,\"turbsensor\":\"Sens5\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 120,
+        "y": 120,
+        "wires": [
+            [
+                "b1bf187759cdfd63"
+            ]
+        ]
+    },
+    {
+        "id": "348ba5453552df44",
+        "type": "ui-gauge",
+        "z": "eaf3584b51ce2f2d",
+        "name": "turbidity",
+        "group": "451bad371ae6f420",
+        "order": 1,
+        "width": "4",
+        "height": 5,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "turbidity",
+        "units": "NTU",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "100",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "1000",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 905,
+        "y": 178.8571319580078,
+        "wires": []
+    },
+    {
+        "id": "b1bf187759cdfd63",
+        "type": "function",
+        "z": "eaf3584b51ce2f2d",
+        "name": "function 11",
+        "func": "let mymsg = msg.payload;\nmymsg.turbsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 185,
+        "y": 258.8571319580078,
+        "wires": [
+            [
+                "cf71fc863888f6e6"
+            ]
+        ]
+    },
+    {
+        "id": "7d354ecd9098fe83",
+        "type": "ui-chart",
+        "z": "eaf3584b51ce2f2d",
+        "group": "451bad371ae6f420",
+        "name": "turbidity chart",
+        "label": "chart",
+        "order": 3,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 7,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 900,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf71fc863888f6e6",
+        "type": "mqtt out",
+        "z": "eaf3584b51ce2f2d",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 335,
+        "y": 338.8571319580078,
+        "wires": []
+    },
+    {
+        "id": "29f2aeab827e7738",
+        "type": "change",
+        "z": "eaf3584b51ce2f2d",
+        "name": "turbidity",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.turbsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 665,
+        "y": 258.8571319580078,
+        "wires": [
+            [
+                "348ba5453552df44",
+                "7d354ecd9098fe83"
+            ]
+        ]
+    },
+    {
+        "id": "0ffee47a4ce3121d",
+        "type": "mqtt in",
+        "z": "6e6027109c1f07bd",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 520,
+        "y": 300,
+        "wires": [
+            [
+                "fdbe50338b08f2ac",
+                "c2773cea06a05557"
+            ]
+        ]
+    },
+    {
+        "id": "fdbe50338b08f2ac",
+        "type": "debug",
+        "z": "6e6027109c1f07bd",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "f1784dc6aa695e58",
+        "type": "ui-button",
+        "z": "6e6027109c1f07bd",
+        "group": "aee1dd06a5ac556b",
+        "name": "DO",
+        "label": "Send Data",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"DOsensorvalue\":105,\"DOsensor\":\"Sens6\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 195,
+        "y": 201.1428680419922,
+        "wires": [
+            [
+                "08c399029f395517"
+            ]
+        ]
+    },
+    {
+        "id": "8e44439c3d86c6b8",
+        "type": "ui-gauge",
+        "z": "6e6027109c1f07bd",
+        "name": "Dissloved Oxygen(DO)",
+        "group": "aee1dd06a5ac556b",
+        "order": 2,
+        "width": "4",
+        "height": 5,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "DO",
+        "units": "PPM",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#0d0d0d"
+            },
+            {
+                "from": "2",
+                "color": "#ff0000"
+            },
+            {
+                "from": "5",
+                "color": "#ffbf00"
+            },
+            {
+                "from": "8",
+                "color": "#ffff00"
+            },
+            {
+                "from": "14",
+                "color": "#00ff00"
+            }
+        ],
+        "min": 0,
+        "max": "20",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1030,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "08c399029f395517",
+        "type": "function",
+        "z": "6e6027109c1f07bd",
+        "name": "DO",
+        "func": "let mymsg = msg.payload;\nmymsg.DOsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 340,
+        "wires": [
+            [
+                "8890393fbfdeb03a"
+            ]
+        ]
+    },
+    {
+        "id": "7ac1102a2901525e",
+        "type": "ui-chart",
+        "z": "6e6027109c1f07bd",
+        "group": "aee1dd06a5ac556b",
+        "name": "DIssolved oxygen chart",
+        "label": "chart",
+        "order": 4,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 7,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1015,
+        "y": 381.1428680419922,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8890393fbfdeb03a",
+        "type": "mqtt out",
+        "z": "6e6027109c1f07bd",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 420,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "c2773cea06a05557",
+        "type": "change",
+        "z": "6e6027109c1f07bd",
+        "name": "DO",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.DOsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 340,
+        "wires": [
+            [
+                "8e44439c3d86c6b8",
+                "7ac1102a2901525e"
+            ]
+        ]
+    },
+    {
+        "id": "d9e6d20f2ebceec8",
+        "type": "mqtt in",
+        "z": "c74204a9a066aef5",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1320,
+        "y": 440,
+        "wires": [
+            [
+                "0527ef00d82bfa3a",
+                "f41cf3fc2fb12a89"
+            ]
+        ]
+    },
+    {
+        "id": "0527ef00d82bfa3a",
+        "type": "debug",
+        "z": "c74204a9a066aef5",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1530,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ecd2bfd784ea3064",
+        "type": "ui-button",
+        "z": "c74204a9a066aef5",
+        "group": "3e693f7b3a458203",
+        "name": "ORP",
+        "label": "Send Data",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"ORPsensorvalue\":106,\"ORPsensor\":\"Sens7\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 985,
+        "y": 341.1428680419922,
+        "wires": [
+            [
+                "3be2711186f8f2aa"
+            ]
+        ]
+    },
+    {
+        "id": "fc729ba681070f37",
+        "type": "ui-gauge",
+        "z": "c74204a9a066aef5",
+        "name": "Oxidation-Reduction Potential. (ORP)",
+        "group": "3e693f7b3a458203",
+        "order": 1,
+        "width": "4",
+        "height": 5,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "DO",
+        "units": "mV",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "-300",
+                "color": "#0d0d0d"
+            },
+            {
+                "from": "-100",
+                "color": "#ff0000"
+            },
+            {
+                "from": "0",
+                "color": "#eaddca"
+            },
+            {
+                "from": "100",
+                "color": "#ff7300"
+            },
+            {
+                "from": "300",
+                "color": "#ffea00"
+            },
+            {
+                "from": "600",
+                "color": "#00ff00"
+            }
+        ],
+        "min": "-300",
+        "max": "600",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1920,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "3be2711186f8f2aa",
+        "type": "function",
+        "z": "c74204a9a066aef5",
+        "name": "ORP",
+        "func": "let mymsg = msg.payload;\nmymsg.ORPsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 480,
+        "wires": [
+            [
+                "c166e2e558f0c284"
+            ]
+        ]
+    },
+    {
+        "id": "f92bd8f15923b372",
+        "type": "ui-chart",
+        "z": "c74204a9a066aef5",
+        "group": "3e693f7b3a458203",
+        "name": "ORP chart",
+        "label": "chart",
+        "order": 3,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 7,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1825,
+        "y": 521.1428680419922,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c166e2e558f0c284",
+        "type": "mqtt out",
+        "z": "c74204a9a066aef5",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 1230,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "f41cf3fc2fb12a89",
+        "type": "change",
+        "z": "c74204a9a066aef5",
+        "name": "ORP",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ORPsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1530,
+        "y": 480,
+        "wires": [
+            [
+                "fc729ba681070f37",
+                "f92bd8f15923b372"
+            ]
+        ]
+    },
+    {
+        "id": "7f7801c0e7061011",
+        "type": "mqtt in",
+        "z": "c7a84c26b80d7398",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 540,
+        "y": 360,
+        "wires": [
+            [
+                "18bf79f259dbdf05",
+                "5e677741a2f2e0ae"
+            ]
+        ]
+    },
+    {
+        "id": "18bf79f259dbdf05",
+        "type": "debug",
+        "z": "c7a84c26b80d7398",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "ccc61d0ea76c6b5c",
+        "type": "ui-button",
+        "z": "c7a84c26b80d7398",
+        "group": "5a7244ef8378faed",
+        "name": "AN",
+        "label": "Send Data",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"ANsensorvalue\":108,\"ANsensor\":\"Sens9\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 205,
+        "y": 261.1428680419922,
+        "wires": [
+            [
+                "7313cbc6ae859717"
+            ]
+        ]
+    },
+    {
+        "id": "de5b1077da76d9ca",
+        "type": "ui-gauge",
+        "z": "c7a84c26b80d7398",
+        "name": "Ammonia Nitrate (AN)",
+        "group": "5a7244ef8378faed",
+        "order": 1,
+        "width": "4",
+        "height": 5,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "AN",
+        "units": "mV",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "-300",
+                "color": "#0d0d0d"
+            },
+            {
+                "from": "-100",
+                "color": "#ff0000"
+            },
+            {
+                "from": "0",
+                "color": "#eaddca"
+            },
+            {
+                "from": "100",
+                "color": "#ff7300"
+            },
+            {
+                "from": "300",
+                "color": "#ffea00"
+            },
+            {
+                "from": "600",
+                "color": "#00ff00"
+            }
+        ],
+        "min": "-300",
+        "max": "600",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1090,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "7313cbc6ae859717",
+        "type": "function",
+        "z": "c7a84c26b80d7398",
+        "name": "AN",
+        "func": "let mymsg = msg.payload;\nmymsg.ANsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 400,
+        "wires": [
+            [
+                "013281caad056ddb"
+            ]
+        ]
+    },
+    {
+        "id": "9ac70c1b4b4b2eed",
+        "type": "ui-chart",
+        "z": "c7a84c26b80d7398",
+        "group": "5a7244ef8378faed",
+        "name": "AN chart",
+        "label": "chart",
+        "order": 3,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 7,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1035,
+        "y": 441.1428680419922,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "013281caad056ddb",
+        "type": "mqtt out",
+        "z": "c7a84c26b80d7398",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 450,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "5e677741a2f2e0ae",
+        "type": "change",
+        "z": "c7a84c26b80d7398",
+        "name": "AN",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ANsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 400,
+        "wires": [
+            [
+                "de5b1077da76d9ca",
+                "9ac70c1b4b4b2eed"
+            ]
+        ]
+    },
+    {
+        "id": "94e9a050c37faf01",
+        "type": "mqtt in",
+        "z": "1746a8e88e733c72",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 540,
+        "y": 340,
+        "wires": [
+            [
+                "0ea6776db705156a",
+                "6f1505fd12844fb5"
+            ]
+        ]
+    },
+    {
+        "id": "0ea6776db705156a",
+        "type": "debug",
+        "z": "1746a8e88e733c72",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "9b29592ff5599302",
+        "type": "ui-button",
+        "z": "1746a8e88e733c72",
+        "group": "4dc96d210264bf08",
+        "name": "ENV",
+        "label": "Send Data",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"ENVsensorvalue\":109,\"ENVsensor\":\"Sens10\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 205,
+        "y": 241.1428680419922,
+        "wires": [
+            [
+                "e1c3bbd7ecfa463f"
+            ]
+        ]
+    },
+    {
+        "id": "e011368145ac0182",
+        "type": "ui-gauge",
+        "z": "1746a8e88e733c72",
+        "name": "Environment moisture (ENV)",
+        "group": "4dc96d210264bf08",
+        "order": 1,
+        "width": "4",
+        "height": 5,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "ENV",
+        "units": "mV",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "-300",
+                "color": "#0d0d0d"
+            },
+            {
+                "from": "-100",
+                "color": "#ff0000"
+            },
+            {
+                "from": "0",
+                "color": "#eaddca"
+            },
+            {
+                "from": "100",
+                "color": "#ff7300"
+            },
+            {
+                "from": "300",
+                "color": "#ffea00"
+            },
+            {
+                "from": "600",
+                "color": "#00ff00"
+            }
+        ],
+        "min": "-300",
+        "max": "600",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1110,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "e1c3bbd7ecfa463f",
+        "type": "function",
+        "z": "1746a8e88e733c72",
+        "name": "ENV",
+        "func": "let mymsg = msg.payload;\nmymsg.ENVsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 380,
+        "wires": [
+            [
+                "0d6742f93f317cf1"
+            ]
+        ]
+    },
+    {
+        "id": "304972c383c4115f",
+        "type": "ui-chart",
+        "z": "1746a8e88e733c72",
+        "group": "4dc96d210264bf08",
+        "name": "ENV chart",
+        "label": "chart",
+        "order": 2,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 7,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1085,
+        "y": 421.1428680419922,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0d6742f93f317cf1",
+        "type": "mqtt out",
+        "z": "1746a8e88e733c72",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 450,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "6f1505fd12844fb5",
+        "type": "change",
+        "z": "1746a8e88e733c72",
+        "name": "ENV",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ENVsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 380,
+        "wires": [
+            [
+                "e011368145ac0182",
+                "304972c383c4115f"
+            ]
+        ]
+    },
+    {
+        "id": "7e0f5b633f267f34",
+        "type": "mqtt in",
+        "z": "a3eebc9152987c0e",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 760,
+        "y": 280,
+        "wires": [
+            [
+                "08b9edf842e274c8",
+                "c19edf7c502d30d9",
+                "773d909782b1c422",
+                "608eb0228fc3ccb2",
+                "a85582cb23ee5a1d",
+                "c28a9cb99e17a996",
+                "3a7b1311ada90bba",
+                "c82fa52b333b70a2",
+                "775db8791abee973",
+                "4d933b779621798b",
+                "ea95d3364e628b04",
+                "df78a101893cdf58",
+                "0c1982191f0d3ddc",
+                "1ec831f49d8979bb",
+                "c28e0d211c7b6464"
+            ]
+        ]
+    },
+    {
+        "id": "016c0cba239728a2",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "pH",
+        "group": "489c228f34a0409b",
+        "order": 1,
+        "width": 4,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "pH",
+        "units": "",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ff0000"
+            },
+            {
+                "from": "2",
+                "color": "#ffbf00"
+            },
+            {
+                "from": "3",
+                "color": "#fbff00"
+            },
+            {
+                "from": "5",
+                "color": "#90ee90"
+            },
+            {
+                "from": "7",
+                "color": "#00ff00"
+            },
+            {
+                "from": "9",
+                "color": "#add8e6"
+            },
+            {
+                "from": "12",
+                "color": "#cf9fff"
+            },
+            {
+                "from": "14",
+                "color": "#0000ff"
+            }
+        ],
+        "min": 0,
+        "max": "20",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1230,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "08b9edf842e274c8",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "pH",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.pHsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 180,
+        "wires": [
+            [
+                "016c0cba239728a2"
+            ]
+        ]
+    },
+    {
+        "id": "c19edf7c502d30d9",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "TDS",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.TDSsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 240,
+        "wires": [
+            [
+                "930bb80615021278"
+            ]
+        ]
+    },
+    {
+        "id": "930bb80615021278",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "TDS",
+        "group": "489c228f34a0409b",
+        "order": 10,
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "tds gauge",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "1000",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1210,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "05dac4ea5814132b",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "LDR",
+        "group": "489c228f34a0409b",
+        "order": 9,
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "LDR",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "100",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1210,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "773d909782b1c422",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "LDR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.LDRsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 300,
+        "wires": [
+            [
+                "05dac4ea5814132b"
+            ]
+        ]
+    },
+    {
+        "id": "3dc3524060122cf9",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "pressure",
+        "group": "489c228f34a0409b",
+        "order": 12,
+        "width": 7,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "pressure",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "100",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1220,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "608eb0228fc3ccb2",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "pressure",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.pressuresensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 380,
+        "wires": [
+            [
+                "3dc3524060122cf9"
+            ]
+        ]
+    },
+    {
+        "id": "eea115d4a70167aa",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "temperature",
+        "group": "489c228f34a0409b",
+        "order": 3,
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Temperature",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "100",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1250,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "a85582cb23ee5a1d",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "temperature",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tempsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 460,
+        "wires": [
+            [
+                "eea115d4a70167aa"
+            ]
+        ]
+    },
+    {
+        "id": "77172039c79381ab",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "turbidity",
+        "group": "489c228f34a0409b",
+        "order": 8,
+        "width": 4,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "turbidity",
+        "units": "NTU",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "100",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "1000",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1260,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "c28a9cb99e17a996",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "turbidity",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.turbsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 520,
+        "wires": [
+            [
+                "77172039c79381ab"
+            ]
+        ]
+    },
+    {
+        "id": "84908506a4fb123c",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "Dissloved Oxygen(DO)",
+        "group": "489c228f34a0409b",
+        "order": 5,
+        "width": 4,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "DO",
+        "units": "PPM",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#0d0d0d"
+            },
+            {
+                "from": "2",
+                "color": "#ff0000"
+            },
+            {
+                "from": "5",
+                "color": "#ffbf00"
+            },
+            {
+                "from": "8",
+                "color": "#ffff00"
+            },
+            {
+                "from": "14",
+                "color": "#00ff00"
+            }
+        ],
+        "min": 0,
+        "max": "20",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1300,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "3a7b1311ada90bba",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "DO",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.DOsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 580,
+        "wires": [
+            [
+                "84908506a4fb123c"
+            ]
+        ]
+    },
+    {
+        "id": "958a3077907d855e",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "Oxidation-Reduction Potential. (ORP)",
+        "group": "489c228f34a0409b",
+        "order": 13,
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "ORP",
+        "units": "mV",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "-300",
+                "color": "#0d0d0d"
+            },
+            {
+                "from": "-100",
+                "color": "#ff0000"
+            },
+            {
+                "from": "0",
+                "color": "#eaddca"
+            },
+            {
+                "from": "100",
+                "color": "#ff7300"
+            },
+            {
+                "from": "300",
+                "color": "#ffea00"
+            },
+            {
+                "from": "600",
+                "color": "#00ff00"
+            }
+        ],
+        "min": "-300",
+        "max": "600",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1350,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "c82fa52b333b70a2",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "ORP",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ORPsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 640,
+        "wires": [
+            [
+                "958a3077907d855e"
+            ]
+        ]
+    },
+    {
+        "id": "4f8f47937c441ad6",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "Ammonia Nitrate (AN)",
+        "group": "489c228f34a0409b",
+        "order": 7,
+        "width": "3",
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "AN",
+        "units": "mV",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "-300",
+                "color": "#0d0d0d"
+            },
+            {
+                "from": "-100",
+                "color": "#ff0000"
+            },
+            {
+                "from": "0",
+                "color": "#eaddca"
+            },
+            {
+                "from": "100",
+                "color": "#ff7300"
+            },
+            {
+                "from": "300",
+                "color": "#ffea00"
+            },
+            {
+                "from": "600",
+                "color": "#00ff00"
+            }
+        ],
+        "min": "-300",
+        "max": "600",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1300,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "775db8791abee973",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "AN",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ANsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 760,
+        "wires": [
+            [
+                "4f8f47937c441ad6"
+            ]
+        ]
+    },
+    {
+        "id": "9d9eda2b0c439279",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "Environment moisture (ENV)",
+        "group": "489c228f34a0409b",
+        "order": 6,
+        "width": "3",
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "ENV",
+        "units": "mV",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "-300",
+                "color": "#0d0d0d"
+            },
+            {
+                "from": "-100",
+                "color": "#ff0000"
+            },
+            {
+                "from": "0",
+                "color": "#eaddca"
+            },
+            {
+                "from": "100",
+                "color": "#ff7300"
+            },
+            {
+                "from": "300",
+                "color": "#ffea00"
+            },
+            {
+                "from": "600",
+                "color": "#00ff00"
+            }
+        ],
+        "min": "-300",
+        "max": "600",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1320,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "4d933b779621798b",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "ENV",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ENVsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 820,
+        "wires": [
+            [
+                "9d9eda2b0c439279"
+            ]
+        ]
+    },
+    {
+        "id": "ea95d3364e628b04",
+        "type": "debug",
+        "z": "a3eebc9152987c0e",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "04ef8e9ce4096ec3",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "Electrical conductivity (EC)",
+        "group": "489c228f34a0409b",
+        "order": 2,
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "EC",
+        "units": "mV",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "-300",
+                "color": "#0d0d0d"
+            },
+            {
+                "from": "-100",
+                "color": "#ff0000"
+            },
+            {
+                "from": "0",
+                "color": "#eaddca"
+            },
+            {
+                "from": "100",
+                "color": "#ff7300"
+            },
+            {
+                "from": "300",
+                "color": "#ffea00"
+            },
+            {
+                "from": "600",
+                "color": "#00ff00"
+            }
+        ],
+        "min": "-300",
+        "max": "600",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1360,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "df78a101893cdf58",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "EC",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ECsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 700,
+        "wires": [
+            [
+                "04ef8e9ce4096ec3"
+            ]
+        ]
+    },
+    {
+        "id": "0c1982191f0d3ddc",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "water",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.watersensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 880,
+        "wires": [
+            [
+                "47ac53ebe433dc65"
+            ]
+        ]
+    },
+    {
+        "id": "47ac53ebe433dc65",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "water level",
+        "group": "489c228f34a0409b",
+        "order": 4,
+        "width": 5,
+        "height": 7,
+        "gtype": "gauge-tank",
+        "gstyle": "needle",
+        "title": "Water level",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "100",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "0",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1290,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "1ec831f49d8979bb",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "solution",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.solsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 940,
+        "wires": [
+            [
+                "61c0810258208ccb"
+            ]
+        ]
+    },
+    {
+        "id": "61c0810258208ccb",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "fertilizer",
+        "group": "489c228f34a0409b",
+        "order": 11,
+        "width": 5,
+        "height": 5,
+        "gtype": "gauge-tank",
+        "gstyle": "needle",
+        "title": "Fertilizer level",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "100",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "0",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1280,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "9bf0c56fc88de272",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "pH",
+        "group": "f2b57e8015d8bfc8",
+        "order": 3,
+        "width": "3",
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "pH",
+        "units": "",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ff0000"
+            },
+            {
+                "from": "2",
+                "color": "#ffbf00"
+            },
+            {
+                "from": "3",
+                "color": "#fbff00"
+            },
+            {
+                "from": "5",
+                "color": "#90ee90"
+            },
+            {
+                "from": "7",
+                "color": "#00ff00"
+            },
+            {
+                "from": "9",
+                "color": "#add8e6"
+            },
+            {
+                "from": "12",
+                "color": "#cf9fff"
+            },
+            {
+                "from": "14",
+                "color": "#0000ff"
+            }
+        ],
+        "min": 0,
+        "max": "20",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1250,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "c28e0d211c7b6464",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "pH",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.pHsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 1020,
+        "wires": [
+            [
+                "9bf0c56fc88de272"
+            ]
+        ]
+    },
+    {
+        "id": "25c8190322001982",
+        "type": "function",
+        "z": "bf2a79eb3678c516",
+        "name": "function 24",
+        "func": "let mymsg = msg.payload;\nmymsg.pHsensorvalue = parseInt(Math.random() * 7);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 220,
+        "wires": [
+            [
+                "10125dfa6bf03d88"
+            ]
+        ]
+    },
+    {
+        "id": "10125dfa6bf03d88",
+        "type": "mqtt out",
+        "z": "bf2a79eb3678c516",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 1830,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "c6e12ad90bc33387",
+        "type": "function",
+        "z": "bf2a79eb3678c516",
+        "name": "function 25",
+        "func": "let mymsg = msg.payload;\nmymsg.TDSsensorvalue = parseInt(Math.random() * 100);\nmsg.payload = mymsg;\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 280,
+        "wires": [
+            [
+                "10125dfa6bf03d88"
+            ]
+        ]
+    },
+    {
+        "id": "946a34c9ca5920ca",
+        "type": "function",
+        "z": "bf2a79eb3678c516",
+        "name": "function 26",
+        "func": "let mymsg = msg.payload;\nmymsg.LDRsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 340,
+        "wires": [
+            [
+                "10125dfa6bf03d88"
+            ]
+        ]
+    },
+    {
+        "id": "6514a58be83e1587",
+        "type": "function",
+        "z": "bf2a79eb3678c516",
+        "name": "function 27",
+        "func": "let mymsg = msg.payload;\nmymsg.pressuresensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 400,
+        "wires": [
+            [
+                "10125dfa6bf03d88"
+            ]
+        ]
+    },
+    {
+        "id": "5d0595fdc22773c1",
+        "type": "function",
+        "z": "bf2a79eb3678c516",
+        "name": "function 28",
+        "func": "let mymsg = msg.payload;\nmymsg.tempsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 460,
+        "wires": [
+            [
+                "10125dfa6bf03d88"
+            ]
+        ]
+    },
+    {
+        "id": "62f0a39bc8d8d034",
+        "type": "function",
+        "z": "bf2a79eb3678c516",
+        "name": "function 29",
+        "func": "let mymsg = msg.payload;\nmymsg.turbsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 520,
+        "wires": [
+            [
+                "10125dfa6bf03d88"
+            ]
+        ]
+    },
+    {
+        "id": "eb1a5181e0418a31",
+        "type": "function",
+        "z": "bf2a79eb3678c516",
+        "name": "DO",
+        "func": "let mymsg = msg.payload;\nmymsg.DOsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 580,
+        "wires": [
+            [
+                "10125dfa6bf03d88"
+            ]
+        ]
+    },
+    {
+        "id": "bd93b8a3b3c0c6c7",
+        "type": "function",
+        "z": "bf2a79eb3678c516",
+        "name": "ORP",
+        "func": "let mymsg = msg.payload;\nmymsg.ORPsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 640,
+        "wires": [
+            [
+                "10125dfa6bf03d88"
+            ]
+        ]
+    },
+    {
+        "id": "428324a40282c476",
+        "type": "function",
+        "z": "bf2a79eb3678c516",
+        "name": "EC",
+        "func": "let mymsg = msg.payload;\nmymsg.ECsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 700,
+        "wires": [
+            [
+                "10125dfa6bf03d88"
+            ]
+        ]
+    },
+    {
+        "id": "49579ae2327a6deb",
+        "type": "function",
+        "z": "bf2a79eb3678c516",
+        "name": "AN",
+        "func": "let mymsg = msg.payload;\nmymsg.ANsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 760,
+        "wires": [
+            [
+                "10125dfa6bf03d88"
+            ]
+        ]
+    },
+    {
+        "id": "08ca00cac1507579",
+        "type": "function",
+        "z": "bf2a79eb3678c516",
+        "name": "ENV",
+        "func": "let mymsg = msg.payload;\nmymsg.ENVsensorvalue = parseInt(Math.random() * 50);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 820,
+        "wires": [
+            [
+                "10125dfa6bf03d88"
+            ]
+        ]
+    },
+    {
+        "id": "7184293881b9a336",
+        "type": "function",
+        "z": "bf2a79eb3678c516",
+        "name": "function 30",
+        "func": "let mymesg = msg.payload;\nmymesg.watersensorvalue = parseInt(Math.random()*50)\nmsg.payload = mymesg;\n// let msg2 = msg;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 860,
+        "wires": [
+            [
+                "10125dfa6bf03d88"
+            ]
+        ]
+    },
+    {
+        "id": "cc53845ee815400c",
+        "type": "ui-button",
+        "z": "bf2a79eb3678c516",
+        "group": "6ba1c753604ec92f",
+        "name": "My Button pH",
+        "label": "Send Data ph",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"pHsensorvalue\":100,\"pHsensor\":\"Sens1\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1180,
+        "y": 200,
+        "wires": [
+            [
+                "25c8190322001982"
+            ]
+        ]
+    },
+    {
+        "id": "f0878d4710ae40c3",
+        "type": "ui-button",
+        "z": "bf2a79eb3678c516",
+        "group": "6ba1c753604ec92f",
+        "name": "TDS Button",
+        "label": "tds button",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"TDSsensorvalue\":101,\"TDSsensor\":\"Sens2\"}",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1170,
+        "y": 260,
+        "wires": [
+            [
+                "c6e12ad90bc33387"
+            ]
+        ]
+    },
+    {
+        "id": "8c18baad6746fa5c",
+        "type": "ui-button",
+        "z": "bf2a79eb3678c516",
+        "group": "6ba1c753604ec92f",
+        "name": "LDR button",
+        "label": "Send Data LDR",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"LDRsensorvalue\":300,\"LDRsensor\":\"Sens1\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1190,
+        "y": 320,
+        "wires": [
+            [
+                "946a34c9ca5920ca"
+            ]
+        ]
+    },
+    {
+        "id": "df23cf196942e432",
+        "type": "ui-button",
+        "z": "bf2a79eb3678c516",
+        "group": "6ba1c753604ec92f",
+        "name": "PRESSURE Button",
+        "label": "Send Data press",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"pressuresensorvalue\":102,\"pressuresensor\":\"Sens3\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1190,
+        "y": 380,
+        "wires": [
+            [
+                "6514a58be83e1587"
+            ]
+        ]
+    },
+    {
+        "id": "650e415a55e14540",
+        "type": "ui-button",
+        "z": "bf2a79eb3678c516",
+        "group": "6ba1c753604ec92f",
+        "name": "temperature Button",
+        "label": "Send Data temp",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"tempsensorvalue\":103,\"tempsensor\":\"Sens4\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1190,
+        "y": 440,
+        "wires": [
+            [
+                "5d0595fdc22773c1"
+            ]
+        ]
+    },
+    {
+        "id": "e106439f51ef08bf",
+        "type": "ui-button",
+        "z": "bf2a79eb3678c516",
+        "group": "6ba1c753604ec92f",
+        "name": "turbidity",
+        "label": "Send Data turb",
+        "order": 8,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"turbsensorvalue\":104,\"turbsensor\":\"Sens5\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1180,
+        "y": 500,
+        "wires": [
+            [
+                "62f0a39bc8d8d034"
+            ]
+        ]
+    },
+    {
+        "id": "79fdd0c5c53a6619",
+        "type": "ui-button",
+        "z": "bf2a79eb3678c516",
+        "group": "6ba1c753604ec92f",
+        "name": "DO",
+        "label": "Send Data DO",
+        "order": 7,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"DOsensorvalue\":105,\"DOsensor\":\"Sens6\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1170,
+        "y": 560,
+        "wires": [
+            [
+                "eb1a5181e0418a31"
+            ]
+        ]
+    },
+    {
+        "id": "36d5702d002a8452",
+        "type": "ui-button",
+        "z": "bf2a79eb3678c516",
+        "group": "6ba1c753604ec92f",
+        "name": "ORP",
+        "label": "Send Data ORP",
+        "order": 6,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"ORPsensorvalue\":106,\"ORPsensor\":\"Sens7\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1150,
+        "y": 620,
+        "wires": [
+            [
+                "bd93b8a3b3c0c6c7"
+            ]
+        ]
+    },
+    {
+        "id": "5cb1c29e795d2665",
+        "type": "ui-button",
+        "z": "bf2a79eb3678c516",
+        "group": "6ba1c753604ec92f",
+        "name": "EC",
+        "label": "Send Data EC",
+        "order": 9,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"ECsensorvalue\":107,\"ECsensor\":\"Sens8\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1150,
+        "y": 680,
+        "wires": [
+            [
+                "428324a40282c476"
+            ]
+        ]
+    },
+    {
+        "id": "5531b9f7a077bdcc",
+        "type": "ui-button",
+        "z": "bf2a79eb3678c516",
+        "group": "6ba1c753604ec92f",
+        "name": "AN",
+        "label": "Send Data AN",
+        "order": 10,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"ANsensorvalue\":108,\"ANsensor\":\"Sens9\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1150,
+        "y": 740,
+        "wires": [
+            [
+                "49579ae2327a6deb"
+            ]
+        ]
+    },
+    {
+        "id": "527394bdd3b17442",
+        "type": "ui-button",
+        "z": "bf2a79eb3678c516",
+        "group": "6ba1c753604ec92f",
+        "name": "ENV",
+        "label": "Send Data env",
+        "order": 11,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"ENVsensorvalue\":109,\"ENVsensor\":\"Sens10\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1150,
+        "y": 800,
+        "wires": [
+            [
+                "08ca00cac1507579"
+            ]
+        ]
+    },
+    {
+        "id": "cd427b90ba33c4fc",
+        "type": "ui-button",
+        "z": "bf2a79eb3678c516",
+        "group": "6ba1c753604ec92f",
+        "name": "water button",
+        "label": "Send data water",
+        "order": 12,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"watersensorvalue\":301,\"watersensor\":\"Sens2\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1150,
+        "y": 840,
+        "wires": [
+            [
+                "7184293881b9a336"
+            ]
+        ]
+    },
+    {
+        "id": "8569397ee161f02a",
+        "type": "function",
+        "z": "bf2a79eb3678c516",
+        "name": "function 12",
+        "func": "let mymesg = msg.payload;\nmymesg.solsensorvalue = parseInt(Math.random()*50)\nmsg.payload = mymesg;\n// let msg2 = msg;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 920,
+        "wires": [
+            [
+                "10125dfa6bf03d88"
+            ]
+        ]
+    },
+    {
+        "id": "778e83d856e649d3",
+        "type": "ui-button",
+        "z": "bf2a79eb3678c516",
+        "group": "6ba1c753604ec92f",
+        "name": "solution button",
+        "label": "Send data solution",
+        "order": 13,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"solrsensorvalue\":301,\"solsensor\":\"Sens2\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1160,
+        "y": 900,
+        "wires": [
+            [
+                "8569397ee161f02a"
+            ]
+        ]
+    },
+    {
+        "id": "bc791f1063e2ec80",
+        "type": "mqtt in",
+        "z": "4c51ccca9eebd239",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 460,
+        "wires": [
+            [
+                "421d983506609c68",
+                "ce4f10c86313b805",
+                "f98a32ee9ad29286",
+                "9f3c2c083634b435",
+                "a155beedec356ef3",
+                "d3d4adeac412017d",
+                "bd93ce8dd99b5241",
+                "17314dc34f9b81bf",
+                "d283dc3cf8a08f6f",
+                "ec272a82b7af86f4",
+                "e3d6c9e4bc668bdf",
+                "071ea7eca28aac3f"
+            ]
+        ]
+    },
+    {
+        "id": "9d3dd57e8ed73cf2",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "pH chart",
+        "label": "pHchart",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1200,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "421d983506609c68",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "pH",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.pHsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 834.3999633789062,
+        "y": 262.3999938964844,
+        "wires": [
+            [
+                "9d3dd57e8ed73cf2"
+            ]
+        ]
+    },
+    {
+        "id": "ce4f10c86313b805",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "TDS",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.TDSsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 320,
+        "wires": [
+            [
+                "491cc51a73b402a6"
+            ]
+        ]
+    },
+    {
+        "id": "491cc51a73b402a6",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "TDS Chart",
+        "label": "TDS chart",
+        "order": 2,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1210,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2dbb9392a121ad04",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "LDR chart",
+        "label": "LDR chart",
+        "order": 3,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1240,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f98a32ee9ad29286",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "LDR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.LDRsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 380,
+        "wires": [
+            [
+                "2dbb9392a121ad04"
+            ]
+        ]
+    },
+    {
+        "id": "245360365e728392",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "Pressure chart",
+        "label": "pressure chart",
+        "order": 5,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1260,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9f3c2c083634b435",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "pressure",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.pressuresensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 440,
+        "wires": [
+            [
+                "245360365e728392"
+            ]
+        ]
+    },
+    {
+        "id": "c70cb62529a0f2af",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "EC chart",
+        "label": " EC chart",
+        "order": 10,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1300,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a155beedec356ef3",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "EC",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ECsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 835,
+        "y": 498.8571319580078,
+        "wires": [
+            [
+                "c70cb62529a0f2af"
+            ]
+        ]
+    },
+    {
+        "id": "ba6c7a21947e85da",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "temperature chart",
+        "label": "temp chart",
+        "order": 11,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1330,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d3d4adeac412017d",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "temperature",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tempsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 560,
+        "wires": [
+            [
+                "ba6c7a21947e85da"
+            ]
+        ]
+    },
+    {
+        "id": "6386a3e602ab1789",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "turbidity chart",
+        "label": "turbidity chart",
+        "order": 8,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1280,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bd93ce8dd99b5241",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "turbidity",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.turbsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 885,
+        "y": 618.8571319580078,
+        "wires": [
+            [
+                "6386a3e602ab1789"
+            ]
+        ]
+    },
+    {
+        "id": "e2bf19cf15971523",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "DIssolved oxygen chart",
+        "label": " DO chart",
+        "order": 9,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1450,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "17314dc34f9b81bf",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "DO",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.DOsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 660,
+        "wires": [
+            [
+                "e2bf19cf15971523"
+            ]
+        ]
+    },
+    {
+        "id": "64aedeeb03235bf7",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "ORP chart",
+        "label": "ORP chart",
+        "order": 7,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1370,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d283dc3cf8a08f6f",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "ORP",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ORPsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 700,
+        "wires": [
+            [
+                "64aedeeb03235bf7"
+            ]
+        ]
+    },
+    {
+        "id": "1c3f3ea3614662e8",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "AN chart",
+        "label": "AN chart",
+        "order": 6,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1360,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec272a82b7af86f4",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "AN",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ANsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 760,
+        "wires": [
+            [
+                "1c3f3ea3614662e8"
+            ]
+        ]
+    },
+    {
+        "id": "421f5a48c25c9361",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "ENV chart",
+        "label": "ENV chart",
+        "order": 4,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1290,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e3d6c9e4bc668bdf",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "ENV",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ENVsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 820,
+        "wires": [
+            [
+                "421f5a48c25c9361"
+            ]
+        ]
+    },
+    {
+        "id": "071ea7eca28aac3f",
+        "type": "debug",
+        "z": "4c51ccca9eebd239",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 180,
+        "wires": []
     }
 ]
