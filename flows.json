@@ -80,6 +80,14 @@
         "env": []
     },
     {
+        "id": "bf2a79eb3678c516",
+        "type": "tab",
+        "label": "BUTTON",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "4c51ccca9eebd239",
         "type": "tab",
         "label": "CHART",
@@ -88,9 +96,9 @@
         "env": []
     },
     {
-        "id": "bf2a79eb3678c516",
+        "id": "53929349c7ee3a5b",
         "type": "tab",
-        "label": "BUTTON",
+        "label": "Flow 1",
         "disabled": false,
         "info": "",
         "env": []
@@ -211,9 +219,9 @@
                 "cols": "12"
             }
         ],
-        "order": 1,
+        "order": 4,
         "className": "",
-        "visible": true,
+        "visible": false,
         "disabled": false
     },
     {
@@ -226,7 +234,7 @@
         "order": 1,
         "showTitle": true,
         "className": "",
-        "visible": "true",
+        "visible": false,
         "disabled": "false",
         "groupType": "default"
     },
@@ -238,20 +246,6 @@
         "width": 12,
         "height": 1,
         "order": 2,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "7c974ec7f34de97b",
-        "type": "ui-group",
-        "name": "Group Name 3",
-        "page": "",
-        "width": 6,
-        "height": 1,
-        "order": -1,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -289,9 +283,9 @@
                 "cols": "12"
             }
         ],
-        "order": 4,
+        "order": 7,
         "className": "",
-        "visible": "true",
+        "visible": false,
         "disabled": "false"
     },
     {
@@ -325,9 +319,9 @@
                 "cols": "12"
             }
         ],
-        "order": 5,
+        "order": 8,
         "className": "",
-        "visible": "true",
+        "visible": false,
         "disabled": "false"
     },
     {
@@ -361,7 +355,7 @@
                 "cols": "12"
             }
         ],
-        "order": 6,
+        "order": 9,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -397,7 +391,7 @@
                 "cols": "12"
             }
         ],
-        "order": 3,
+        "order": 6,
         "className": "",
         "visible": true,
         "disabled": false
@@ -433,7 +427,7 @@
                 "cols": "12"
             }
         ],
-        "order": 7,
+        "order": 10,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -480,7 +474,7 @@
                 "cols": "12"
             }
         ],
-        "order": 2,
+        "order": 5,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -525,46 +519,10 @@
         "className": ""
     },
     {
-        "id": "6c1ed9880202f722",
-        "type": "ui-page",
-        "name": "pressure",
-        "ui": "3fa52c4fdd1b96be",
-        "path": "/page8",
-        "icon": "home",
-        "layout": "grid",
-        "theme": "da9ef61b6c86fd56",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 8,
-        "className": "",
-        "visible": "true",
-        "disabled": "false"
-    },
-    {
         "id": "b4a266ecfd424fd7",
         "type": "ui-group",
         "name": "pressure",
-        "page": "6c1ed9880202f722",
+        "page": "",
         "width": 6,
         "height": 1,
         "order": 1,
@@ -641,7 +599,7 @@
                 "cols": "12"
             }
         ],
-        "order": 9,
+        "order": 11,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -691,7 +649,7 @@
                 "cols": "12"
             }
         ],
-        "order": 10,
+        "order": 12,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -752,7 +710,7 @@
                 "cols": "12"
             }
         ],
-        "order": 11,
+        "order": 13,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -827,7 +785,7 @@
                 "cols": "12"
             }
         ],
-        "order": 12,
+        "order": 14,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -877,7 +835,7 @@
                 "cols": "12"
             }
         ],
-        "order": 13,
+        "order": 15,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -941,7 +899,7 @@
                 "cols": "12"
             }
         ],
-        "order": 14,
+        "order": 1,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -991,7 +949,7 @@
                 "cols": "12"
             }
         ],
-        "order": 15,
+        "order": 3,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -1041,7 +999,7 @@
                 "cols": "12"
             }
         ],
-        "order": 16,
+        "order": 2,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -1091,7 +1049,7 @@
                 "cols": "12"
             }
         ],
-        "order": 17,
+        "order": 16,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -1109,42 +1067,6 @@
         "visible": "true",
         "disabled": "false",
         "groupType": "default"
-    },
-    {
-        "id": "156da3319a437673",
-        "type": "ui-page",
-        "name": "Page 20",
-        "ui": "3fa52c4fdd1b96be",
-        "path": "/page20",
-        "icon": "home",
-        "layout": "grid",
-        "theme": "da9ef61b6c86fd56",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 18,
-        "className": "",
-        "visible": "true",
-        "disabled": "false"
     },
     {
         "id": "ef6302524803726d",
@@ -1177,7 +1099,7 @@
                 "cols": "12"
             }
         ],
-        "order": 19,
+        "order": 17,
         "className": "",
         "visible": true,
         "disabled": false
@@ -1187,6 +1109,20 @@
         "type": "ui-group",
         "name": "soil_moisture",
         "page": "ef6302524803726d",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "0f66d5366782bd26",
+        "type": "ui-group",
+        "name": "global",
+        "page": "3bf1742bb75c013e",
         "width": 6,
         "height": 1,
         "order": 1,
@@ -2209,6 +2145,69 @@
             [
                 "5f533c1940c264b4",
                 "7c0cb67973b58105"
+            ]
+        ]
+    },
+    {
+        "id": "4c802746d85c502e",
+        "type": "ui-template",
+        "z": "4f066a2765eb3e8e",
+        "group": "0f66d5366782bd26",
+        "page": "",
+        "ui": "",
+        "name": "notification",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <div>\n        <h2>Counter</h2>\n        <!-- Conditional Styling using Attribute Binding (\":\") -->\n        <!-- and rendering content inside <tags></tags> with {{ }} -->\n        <p :style=\"{'color' : (count > 5 ? 'red' : 'green' )}\">Current Count: {{ count }}</p>\n        <!-- Computed Rendering using Vue Computed Variables -->\n        <p class=\"my-class\">Formatted Count: {{ formattedCount }}</p>\n        <!-- Conditional Rendering with \"v-if\" -->\n        <b v-if=\"count > 10\">need more!</b>\n        <v-btn @click=\"increase()\">Increment</v-btn>\n    </div>\n</template>\n\n<script>\n    export default {\n        data() {\n            // define variables available component-wide\n            // (in <template> and component functions)\n            return {\n                count: 0\n            }\n        },\n        watch: {\n            // watch for any changes of \"count\"\n            count: function () {\n                if (this.count % 10 === 0) {\n                    this.send({payload: 'Multiple of 10'})\n                }\n            }\n        },\n        computed: {\n            // automatically compute this variable\n            // whenever VueJS deems appropriate\n            formattedCount: function () {\n                return this.count + ' oranges'\n            }\n        },\n        methods: {\n            // expose a method to our <template> and Vue Application\n            increase: function () {\n                this.count++\n            }\n        },\n        mounted() {\n            // code here when the component is first loaded\n        },\n        unmounted() {\n            // code here when the component is removed from the Dashboard\n            // i.e. when the user navigates away from the page\n        }\n    }\n</script>\n<style>\n    /* define any styles here - supports raw CSS */\n    .my-class {\n        color: black;\n        width: 20%;\n        height: 20%;\n        padding: 40px;\n        background-color: blue;\n        display: flex;\n        align-items: center;\n        border-radius: 80px;\n        \n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": " .my-class",
+        "x": 610,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e0e8aa401fbd7b5",
+        "type": "ui-button",
+        "z": "4f066a2765eb3e8e",
+        "group": "0f66d5366782bd26",
+        "name": "test button",
+        "label": "button",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": " .my-class",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "4c802746d85c502e"
             ]
         ]
     },
@@ -4461,26 +4460,38 @@
         "gtype": "gauge-34",
         "gstyle": "needle",
         "title": "POTASSIUM",
-        "units": "",
+        "units": "PPM",
         "icon": "",
         "prefix": "",
         "suffix": "",
         "segments": [
             {
                 "from": "0",
-                "color": "#00ff33"
+                "color": "#000000"
+            },
+            {
+                "from": "5",
+                "color": "#f19009"
+            },
+            {
+                "from": "15",
+                "color": "#f0ff1a"
             },
             {
                 "from": "25",
-                "color": "#ecf000"
+                "color": "#4dfb0e"
             },
             {
                 "from": "50",
+                "color": "#08bf82"
+            },
+            {
+                "from": "100",
                 "color": "#ff0000"
             }
         ],
         "min": "0",
-        "max": "50",
+        "max": "100",
         "sizeThickness": 16,
         "sizeGap": 4,
         "sizeKeyThickness": 8,
@@ -4553,32 +4564,32 @@
         "suffix": "",
         "segments": [
             {
-                "from": "-300",
-                "color": "#0d0d0d"
-            },
-            {
-                "from": "-100",
-                "color": "#ff0000"
-            },
-            {
                 "from": "0",
-                "color": "#eaddca"
+                "color": "#121111"
             },
             {
-                "from": "100",
+                "from": "2",
                 "color": "#ff7300"
             },
             {
-                "from": "300",
-                "color": "#ffea00"
+                "from": "10",
+                "color": "#ff7300"
             },
             {
-                "from": "600",
+                "from": "40",
                 "color": "#00ff00"
+            },
+            {
+                "from": "50",
+                "color": "#3712f3"
+            },
+            {
+                "from": "100",
+                "color": "#ff0000"
             }
         ],
-        "min": "-300",
-        "max": "600",
+        "min": "0",
+        "max": "100",
         "sizeThickness": 16,
         "sizeGap": 4,
         "sizeKeyThickness": 8,
@@ -4778,26 +4789,34 @@
         "gtype": "gauge-34",
         "gstyle": "needle",
         "title": "PHOSPHORUS",
-        "units": "",
+        "units": "PPM",
         "icon": "",
         "prefix": "",
         "suffix": "",
         "segments": [
             {
                 "from": "0",
-                "color": "#00ff33"
-            },
-            {
-                "from": "25",
-                "color": "#ecf000"
+                "color": "#181b19"
             },
             {
                 "from": "50",
-                "color": "#ff0000"
+                "color": "#272825"
+            },
+            {
+                "from": "120",
+                "color": "#1eff00"
+            },
+            {
+                "from": "250",
+                "color": "#fd1212"
+            },
+            {
+                "from": "300",
+                "color": "#fb1818"
             }
         ],
         "min": "0",
-        "max": "50",
+        "max": "300",
         "sizeThickness": 16,
         "sizeGap": 4,
         "sizeKeyThickness": 8,
@@ -4858,1034 +4877,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "bc791f1063e2ec80",
-        "type": "mqtt in",
-        "z": "4c51ccca9eebd239",
-        "name": "",
-        "topic": "mything-io",
-        "qos": "1",
-        "datatype": "auto-detect",
-        "broker": "d16e753b1c0fb4e4",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 300,
-        "y": 360,
-        "wires": [
-            [
-                "421d983506609c68",
-                "ce4f10c86313b805",
-                "f98a32ee9ad29286",
-                "9f3c2c083634b435",
-                "a155beedec356ef3",
-                "d3d4adeac412017d",
-                "bd93ce8dd99b5241",
-                "17314dc34f9b81bf",
-                "d283dc3cf8a08f6f",
-                "ec272a82b7af86f4",
-                "e3d6c9e4bc668bdf",
-                "071ea7eca28aac3f"
-            ]
-        ]
-    },
-    {
-        "id": "9d3dd57e8ed73cf2",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "pH chart",
-        "label": "pHchart",
-        "order": 1,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1080,
-        "y": 220,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "421d983506609c68",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "pH",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.pH",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 810,
-        "y": 220,
-        "wires": [
-            [
-                "9d3dd57e8ed73cf2"
-            ]
-        ]
-    },
-    {
-        "id": "ce4f10c86313b805",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "TDS",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.TDSsensorvalue",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 810,
-        "y": 260,
-        "wires": [
-            [
-                "491cc51a73b402a6"
-            ]
-        ]
-    },
-    {
-        "id": "491cc51a73b402a6",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "TDS Chart",
-        "label": "TDS chart",
-        "order": 2,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "",
-        "ymax": "",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#666666"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#e5e5e5"
-        ],
-        "gridColorDefault": true,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1090,
-        "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2dbb9392a121ad04",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "LDR chart",
-        "label": "LDR chart",
-        "order": 3,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1080,
-        "y": 300,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f98a32ee9ad29286",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "LDR",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.LDRsensorvalue",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 810,
-        "y": 300,
-        "wires": [
-            [
-                "2dbb9392a121ad04"
-            ]
-        ]
-    },
-    {
-        "id": "245360365e728392",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "Soil Quaity",
-        "label": "SOIL QUALITY",
-        "order": 5,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1090,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9f3c2c083634b435",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "soil quality",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.soil_Quality",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 830,
-        "y": 340,
-        "wires": [
-            [
-                "245360365e728392"
-            ]
-        ]
-    },
-    {
-        "id": "c70cb62529a0f2af",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "EC chart",
-        "label": " EC chart",
-        "order": 10,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1080,
-        "y": 380,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a155beedec356ef3",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "EC",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.ECsensorvalue",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 810,
-        "y": 380,
-        "wires": [
-            [
-                "c70cb62529a0f2af"
-            ]
-        ]
-    },
-    {
-        "id": "ba6c7a21947e85da",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "temperature chart",
-        "label": "temp chart",
-        "order": 11,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1110,
-        "y": 420,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d3d4adeac412017d",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "Temperature",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.Temperature",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 830,
-        "y": 420,
-        "wires": [
-            [
-                "ba6c7a21947e85da"
-            ]
-        ]
-    },
-    {
-        "id": "6386a3e602ab1789",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "turbidity chart",
-        "label": "turbidity chart",
-        "order": 8,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1100,
-        "y": 460,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "bd93ce8dd99b5241",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "turbidity",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.turbsensorvalue",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 820,
-        "y": 460,
-        "wires": [
-            [
-                "6386a3e602ab1789"
-            ]
-        ]
-    },
-    {
-        "id": "e2bf19cf15971523",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "DIssolved oxygen chart",
-        "label": " DO chart",
-        "order": 9,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1130,
-        "y": 500,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "17314dc34f9b81bf",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "HUMIDITY",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.HUMIDITY",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 830,
-        "y": 500,
-        "wires": [
-            [
-                "e2bf19cf15971523"
-            ]
-        ]
-    },
-    {
-        "id": "64aedeeb03235bf7",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "ORP chart",
-        "label": "ORP chart",
-        "order": 7,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1090,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d283dc3cf8a08f6f",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "ORP",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.ORPsensorvalue",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 810,
-        "y": 540,
-        "wires": [
-            [
-                "64aedeeb03235bf7"
-            ]
-        ]
-    },
-    {
-        "id": "1c3f3ea3614662e8",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "AN chart",
-        "label": "AN chart",
-        "order": 6,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1080,
-        "y": 580,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ec272a82b7af86f4",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "AN",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.ANsensorvalue",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 810,
-        "y": 580,
-        "wires": [
-            [
-                "1c3f3ea3614662e8"
-            ]
-        ]
-    },
-    {
-        "id": "421f5a48c25c9361",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "ENV chart",
-        "label": "ENV chart",
-        "order": 4,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1090,
-        "y": 620,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e3d6c9e4bc668bdf",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "ENV",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.ENVsensorvalue",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 810,
-        "y": 620,
-        "wires": [
-            [
-                "421f5a48c25c9361"
-            ]
-        ]
-    },
-    {
-        "id": "071ea7eca28aac3f",
-        "type": "debug",
-        "z": "4c51ccca9eebd239",
-        "name": "debug1234",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 830,
-        "y": 180,
-        "wires": []
     },
     {
         "id": "25c8190322001982",
@@ -6671,5 +5662,1213 @@
                 "8569397ee161f02a"
             ]
         ]
+    },
+    {
+        "id": "bc791f1063e2ec80",
+        "type": "mqtt in",
+        "z": "4c51ccca9eebd239",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 300,
+        "y": 360,
+        "wires": [
+            [
+                "69bfd14bf3dc1395",
+                "0ac86421e11ee7d3",
+                "dfc445e56bb60cfd",
+                "d7384c3bfd6b4178",
+                "6663e3ab69ba585e",
+                "77daeb2b8d99b580",
+                "59b0438f4bdaa701",
+                "38178e31aa57c1aa",
+                "b3486272e0b44cbe",
+                "464684eb06ec18a8",
+                "58babe61069b9970",
+                "2cc73c97a2cf55b0",
+                "4790d92418f4089d",
+                "fcf6ab3fdc52a463"
+            ]
+        ]
+    },
+    {
+        "id": "9d3dd57e8ed73cf2",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "pH chart",
+        "label": "pHchart",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1080,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "491cc51a73b402a6",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "TDS Chart",
+        "label": "TDS chart",
+        "order": 2,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1090,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2dbb9392a121ad04",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "LDR chart",
+        "label": "LDR chart",
+        "order": 3,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1080,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "245360365e728392",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "Soil Quaity",
+        "label": "SOIL QUALITY",
+        "order": 5,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1090,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c70cb62529a0f2af",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "Soil moisture",
+        "label": " EC chart",
+        "order": 10,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1090,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ba6c7a21947e85da",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "temperature chart",
+        "label": "temp chart",
+        "order": 11,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1110,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6386a3e602ab1789",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "NITROGEN",
+        "label": "NITROGEN",
+        "order": 8,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1090,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2bf19cf15971523",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "POTASSIUM chart",
+        "label": "POTASSIUM",
+        "order": 9,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1110,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64aedeeb03235bf7",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "PHOSPHORUS",
+        "label": "PHOSPHORUS",
+        "order": 7,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1100,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c3f3ea3614662e8",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "water level",
+        "label": "water level chart",
+        "order": 6,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1090,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "421f5a48c25c9361",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "fertilizer chart",
+        "label": "Fertilizer chart",
+        "order": 4,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1100,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "69bfd14bf3dc1395",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "pH",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.pH",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 180,
+        "wires": [
+            [
+                "9d3dd57e8ed73cf2"
+            ]
+        ]
+    },
+    {
+        "id": "0ac86421e11ee7d3",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "TDS",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tds",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 220,
+        "wires": [
+            [
+                "491cc51a73b402a6"
+            ]
+        ]
+    },
+    {
+        "id": "dfc445e56bb60cfd",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "LDR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ldr",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 260,
+        "wires": [
+            [
+                "2dbb9392a121ad04"
+            ]
+        ]
+    },
+    {
+        "id": "d7384c3bfd6b4178",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "soil quality",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.soil_quality",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 300,
+        "wires": [
+            [
+                "245360365e728392"
+            ]
+        ]
+    },
+    {
+        "id": "6663e3ab69ba585e",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "temperature",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tempC",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 340,
+        "wires": [
+            [
+                "ba6c7a21947e85da"
+            ]
+        ]
+    },
+    {
+        "id": "77daeb2b8d99b580",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "Soil moisture",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.soilMoisture",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 380,
+        "wires": [
+            [
+                "c70cb62529a0f2af"
+            ]
+        ]
+    },
+    {
+        "id": "59b0438f4bdaa701",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "Humidity",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.humidity",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 420,
+        "wires": [
+            [
+                "3ae38b3f019f57c2"
+            ]
+        ]
+    },
+    {
+        "id": "38178e31aa57c1aa",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "OCR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ocr",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 460,
+        "wires": [
+            [
+                "aaf7a09a9738ab0b"
+            ]
+        ]
+    },
+    {
+        "id": "464684eb06ec18a8",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "POTASSIUM",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.K",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 540,
+        "wires": [
+            [
+                "e2bf19cf15971523"
+            ]
+        ]
+    },
+    {
+        "id": "b3486272e0b44cbe",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "NITROGEN",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.N",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 500,
+        "wires": [
+            [
+                "6386a3e602ab1789"
+            ]
+        ]
+    },
+    {
+        "id": "2cc73c97a2cf55b0",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "water level",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.distance",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 620,
+        "wires": [
+            [
+                "1c3f3ea3614662e8"
+            ]
+        ]
+    },
+    {
+        "id": "4790d92418f4089d",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "fertilizer",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.sol",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 660,
+        "wires": [
+            [
+                "421f5a48c25c9361"
+            ]
+        ]
+    },
+    {
+        "id": "58babe61069b9970",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "PHOSPHORUS",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.P",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 580,
+        "wires": [
+            [
+                "64aedeeb03235bf7"
+            ]
+        ]
+    },
+    {
+        "id": "3ae38b3f019f57c2",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "HUMIDITY",
+        "label": "HUMIDITY chart",
+        "order": 12,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1130,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aaf7a09a9738ab0b",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "OCR ",
+        "label": "OCR chart",
+        "order": 13,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1110,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fcf6ab3fdc52a463",
+        "type": "debug",
+        "z": "4c51ccca9eebd239",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 140,
+        "wires": []
     }
 ]
