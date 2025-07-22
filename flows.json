@@ -72,17 +72,33 @@
         "env": []
     },
     {
-        "id": "a3eebc9152987c0e",
+        "id": "53929349c7ee3a5b",
         "type": "tab",
-        "label": "GUAGES",
+        "label": "HUMIDITY",
         "disabled": false,
         "info": "",
         "env": []
     },
     {
-        "id": "bf2a79eb3678c516",
+        "id": "d94e539fe4cced5c",
         "type": "tab",
-        "label": "BUTTON",
+        "label": "OCR",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c60959e2c796cb2d",
+        "type": "tab",
+        "label": "NPK",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a3eebc9152987c0e",
+        "type": "tab",
+        "label": "GUAGES",
         "disabled": false,
         "info": "",
         "env": []
@@ -96,9 +112,9 @@
         "env": []
     },
     {
-        "id": "53929349c7ee3a5b",
+        "id": "bf2a79eb3678c516",
         "type": "tab",
-        "label": "Flow 1",
+        "label": "BUTTON",
         "disabled": false,
         "info": "",
         "env": []
@@ -283,7 +299,7 @@
                 "cols": "12"
             }
         ],
-        "order": 7,
+        "order": 10,
         "className": "",
         "visible": false,
         "disabled": "false"
@@ -319,7 +335,7 @@
                 "cols": "12"
             }
         ],
-        "order": 8,
+        "order": 11,
         "className": "",
         "visible": false,
         "disabled": "false"
@@ -391,7 +407,7 @@
                 "cols": "12"
             }
         ],
-        "order": 6,
+        "order": 5,
         "className": "",
         "visible": true,
         "disabled": false
@@ -427,7 +443,7 @@
                 "cols": "12"
             }
         ],
-        "order": 10,
+        "order": 7,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -474,7 +490,7 @@
                 "cols": "12"
             }
         ],
-        "order": 5,
+        "order": 6,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -517,20 +533,6 @@
         "width": 1,
         "height": 1,
         "className": ""
-    },
-    {
-        "id": "b4a266ecfd424fd7",
-        "type": "ui-group",
-        "name": "pressure",
-        "page": "",
-        "width": 6,
-        "height": 1,
-        "order": 1,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
     },
     {
         "id": "c9af80f12525737b",
@@ -599,7 +601,7 @@
                 "cols": "12"
             }
         ],
-        "order": 11,
+        "order": 12,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -619,59 +621,9 @@
         "groupType": "default"
     },
     {
-        "id": "a17c935f30930991",
-        "type": "ui-page",
-        "name": "DO",
-        "ui": "3fa52c4fdd1b96be",
-        "path": "/page10",
-        "icon": "home",
-        "layout": "grid",
-        "theme": "da9ef61b6c86fd56",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 12,
-        "className": "",
-        "visible": "true",
-        "disabled": "false"
-    },
-    {
-        "id": "aee1dd06a5ac556b",
-        "type": "ui-group",
-        "name": "DO",
-        "page": "a17c935f30930991",
-        "width": 6,
-        "height": 1,
-        "order": 1,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
         "id": "634260cbcd40c1f3",
         "type": "ui-spacer",
-        "group": "aee1dd06a5ac556b",
+        "group": "",
         "name": "spacer",
         "tooltip": "",
         "order": 1,
@@ -785,7 +737,7 @@
                 "cols": "12"
             }
         ],
-        "order": 14,
+        "order": 8,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -835,7 +787,7 @@
                 "cols": "12"
             }
         ],
-        "order": 15,
+        "order": 14,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -845,20 +797,6 @@
         "type": "ui-group",
         "name": "AN(ammonia nitrate",
         "page": "08cfbfa103ef316c",
-        "width": 6,
-        "height": 1,
-        "order": 1,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "4dc96d210264bf08",
-        "type": "ui-group",
-        "name": "ENV",
-        "page": "",
         "width": 6,
         "height": 1,
         "order": 1,
@@ -901,8 +839,8 @@
         ],
         "order": 1,
         "className": "",
-        "visible": "true",
-        "disabled": "false"
+        "visible": true,
+        "disabled": false
     },
     {
         "id": "489c228f34a0409b",
@@ -1019,9 +957,73 @@
         "groupType": "default"
     },
     {
-        "id": "4275e1cdee9989cb",
+        "id": "ef6302524803726d",
         "type": "ui-page",
-        "name": "soil Quality",
+        "name": "soil_moisture",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page21",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 15,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "76a9c339b819629c",
+        "type": "ui-group",
+        "name": "soil_moisture",
+        "page": "ef6302524803726d",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "0f66d5366782bd26",
+        "type": "ui-group",
+        "name": "global",
+        "page": "3bf1742bb75c013e",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "ab882178f51b7b47",
+        "type": "ui-page",
+        "name": "HUMIDITY",
         "ui": "3fa52c4fdd1b96be",
         "path": "/page19",
         "icon": "home",
@@ -1051,29 +1053,15 @@
         ],
         "order": 16,
         "className": "",
-        "visible": "true",
-        "disabled": "false"
+        "visible": true,
+        "disabled": false
     },
     {
-        "id": "7e28b2d5aeb76d37",
-        "type": "ui-group",
-        "name": "Group 18",
-        "page": "4275e1cdee9989cb",
-        "width": 6,
-        "height": 1,
-        "order": 1,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "ef6302524803726d",
+        "id": "bb49e983bf236ffd",
         "type": "ui-page",
-        "name": "soil_moisture",
+        "name": "OCR",
         "ui": "3fa52c4fdd1b96be",
-        "path": "/page21",
+        "path": "/page20",
         "icon": "home",
         "layout": "grid",
         "theme": "da9ef61b6c86fd56",
@@ -1105,10 +1093,10 @@
         "disabled": false
     },
     {
-        "id": "76a9c339b819629c",
+        "id": "c7ae25a12c34b4a4",
         "type": "ui-group",
-        "name": "soil_moisture",
-        "page": "ef6302524803726d",
+        "name": "HUMIDITY",
+        "page": "ab882178f51b7b47",
         "width": 6,
         "height": 1,
         "order": 1,
@@ -1119,13 +1107,108 @@
         "groupType": "default"
     },
     {
-        "id": "0f66d5366782bd26",
+        "id": "bfa056f8e2354464",
         "type": "ui-group",
-        "name": "global",
-        "page": "3bf1742bb75c013e",
+        "name": "OCR",
+        "page": "bb49e983bf236ffd",
         "width": 6,
         "height": 1,
         "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a91413e677b5f794",
+        "type": "ui-page",
+        "name": "NPK",
+        "ui": "3fa52c4fdd1b96be",
+        "path": "/page23",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "da9ef61b6c86fd56",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 18,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "c0785d4a3c39ddb9",
+        "type": "ui-group",
+        "name": "NPK",
+        "page": "a91413e677b5f794",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "2cd33ee0ae70ebc4",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "80202af922023d9a",
+        "type": "ui-group",
+        "name": "status",
+        "page": "",
+        "width": 6,
+        "height": 1,
+        "order": -1,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -1239,6 +1322,8 @@
         "name": "LDR",
         "group": "0c269151abe35dd2",
         "order": 1,
+        "value": "payload",
+        "valueType": "msg",
         "width": "3",
         "height": "2",
         "gtype": "gauge-battery",
@@ -1293,7 +1378,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 650,
+        "x": 670,
         "y": 140,
         "wires": [
             [
@@ -2145,6 +2230,53 @@
             [
                 "5f533c1940c264b4",
                 "7c0cb67973b58105"
+            ]
+        ]
+    },
+    {
+        "id": "981ad355f441ec26",
+        "type": "http in",
+        "z": "bef34cc03ba70852",
+        "name": "",
+        "url": "",
+        "method": "get",
+        "upload": false,
+        "x": 270,
+        "y": 740,
+        "wires": [
+            [
+                "2615712073bd7b31"
+            ]
+        ]
+    },
+    {
+        "id": "fa4fec16d1ef1455",
+        "type": "http response",
+        "z": "bef34cc03ba70852",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 730,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "2615712073bd7b31",
+        "type": "function",
+        "z": "bef34cc03ba70852",
+        "name": "function 13",
+        "func": "let data = [\n    { time: \"2025-07-07 10:00\", temperature: 25.3, humidity: 60 },\n    { time: \"2025-07-07 10:01\", temperature: 25.5, humidity: 61 }\n];\n\nlet csv = \"time,temperature,humidity\\n\";\ndata.forEach(row => {\n    csv += `${row.time},${row.temperature},${row.humidity}\\n`;\n});\n\nmsg.payload = csv;\nmsg.headers = { \"Content-Type\": \"text/csv\" };\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 740,
+        "wires": [
+            [
+                "fa4fec16d1ef1455"
             ]
         ]
     },
@@ -3163,7 +3295,7 @@
         "z": "c97ee5904073bf42",
         "name": "soil_quality",
         "group": "4d16dfebb2051d7f",
-        "order": 5,
+        "order": 3,
         "width": "4",
         "height": 5,
         "gtype": "gauge-half",
@@ -3226,7 +3358,7 @@
         "group": "4d16dfebb2051d7f",
         "name": "soil_quality chart",
         "label": "chart",
-        "order": 4,
+        "order": 2,
         "chartType": "line",
         "category": "topic",
         "categoryType": "msg",
@@ -3677,14 +3809,16 @@
         "id": "56a084e8b6541222",
         "type": "ui-gauge",
         "z": "2c2cdcc8e151c28e",
-        "name": "soil_quality",
-        "group": "4d16dfebb2051d7f",
+        "name": "soil_moisture",
+        "group": "76a9c339b819629c",
         "order": 2,
+        "value": "payload",
+        "valueType": "msg",
         "width": "4",
         "height": 5,
         "gtype": "gauge-half",
         "gstyle": "needle",
-        "title": "soil_quality",
+        "title": "soil_moisture",
         "units": "",
         "icon": "",
         "prefix": "",
@@ -3739,9 +3873,9 @@
         "id": "8375bbae415851ec",
         "type": "ui-chart",
         "z": "2c2cdcc8e151c28e",
-        "group": "4d16dfebb2051d7f",
-        "name": "soil_quality chart",
-        "label": "chart",
+        "group": "76a9c339b819629c",
+        "name": "soil_moisture chart",
+        "label": "Soil Moisture",
         "order": 3,
         "chartType": "line",
         "category": "topic",
@@ -3826,6 +3960,621 @@
         ]
     },
     {
+        "id": "6d28b4bb3f3bc79b",
+        "type": "ui-button",
+        "z": "53929349c7ee3a5b",
+        "group": "c7ae25a12c34b4a4",
+        "name": "humidity",
+        "label": "Send Data HUMIDITY",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"humiditysensorvalue\":101,\"humiditysensor\":\"Sens2\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 240,
+        "y": 200,
+        "wires": [
+            [
+                "240be6f2d987b988"
+            ]
+        ]
+    },
+    {
+        "id": "240be6f2d987b988",
+        "type": "function",
+        "z": "53929349c7ee3a5b",
+        "name": "humidity",
+        "func": "let mymsg = msg.payload;\nmymsg.humiditysensorvalue = parseInt(Math.random() * 7);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 300,
+        "wires": [
+            [
+                "c8c3e7340a0edf75"
+            ]
+        ]
+    },
+    {
+        "id": "dde7f1b11441e53e",
+        "type": "mqtt in",
+        "z": "53929349c7ee3a5b",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 680,
+        "y": 460,
+        "wires": [
+            [
+                "a26fddc59587364d",
+                "b80b3b736489ede7"
+            ]
+        ]
+    },
+    {
+        "id": "c8c3e7340a0edf75",
+        "type": "mqtt out",
+        "z": "53929349c7ee3a5b",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 510,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "a26fddc59587364d",
+        "type": "debug",
+        "z": "53929349c7ee3a5b",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "128933580d877449",
+        "type": "ui-gauge",
+        "z": "53929349c7ee3a5b",
+        "name": "humiditysensorvalue",
+        "group": "c7ae25a12c34b4a4",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "4",
+        "height": 5,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "HUMIDITY",
+        "units": "",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ff0000"
+            },
+            {
+                "from": "2",
+                "color": "#ffbf00"
+            },
+            {
+                "from": "3",
+                "color": "#fbff00"
+            },
+            {
+                "from": "5",
+                "color": "#90ee90"
+            },
+            {
+                "from": "7",
+                "color": "#00ff00"
+            },
+            {
+                "from": "9",
+                "color": "#add8e6"
+            },
+            {
+                "from": "12",
+                "color": "#cf9fff"
+            },
+            {
+                "from": "14",
+                "color": "#0000ff"
+            }
+        ],
+        "min": 0,
+        "max": "20",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1120,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "365d18478bd1655b",
+        "type": "ui-chart",
+        "z": "53929349c7ee3a5b",
+        "group": "c7ae25a12c34b4a4",
+        "name": "humiditysensorvalue",
+        "label": "chart",
+        "order": 3,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 7,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1220,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b80b3b736489ede7",
+        "type": "change",
+        "z": "53929349c7ee3a5b",
+        "name": "humiditysensor",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.humiditysensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 460,
+        "wires": [
+            [
+                "128933580d877449",
+                "365d18478bd1655b"
+            ]
+        ]
+    },
+    {
+        "id": "ede0bd6d4ae7be90",
+        "type": "ui-button",
+        "z": "d94e539fe4cced5c",
+        "group": "bfa056f8e2354464",
+        "name": "OCR",
+        "label": "Send Data OCR",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"OCRsensorvalue\":101,\"OCRsensor\":\"Sens2\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 90,
+        "y": 180,
+        "wires": [
+            [
+                "ca9261e0e2500727"
+            ]
+        ]
+    },
+    {
+        "id": "ca9261e0e2500727",
+        "type": "function",
+        "z": "d94e539fe4cced5c",
+        "name": "OCR",
+        "func": "let mymsg = msg.payload;\nmymsg.OCRsensorvalue = parseInt(Math.random() * 7);\nmsg.payload = mymsg;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 280,
+        "wires": [
+            [
+                "e694d3ee1a0ec88b"
+            ]
+        ]
+    },
+    {
+        "id": "930e4d8470099709",
+        "type": "mqtt in",
+        "z": "d94e539fe4cced5c",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 540,
+        "y": 440,
+        "wires": [
+            [
+                "afd6f186480525b1",
+                "317a8abc8d58f856"
+            ]
+        ]
+    },
+    {
+        "id": "e694d3ee1a0ec88b",
+        "type": "mqtt out",
+        "z": "d94e539fe4cced5c",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d16e753b1c0fb4e4",
+        "x": 370,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "afd6f186480525b1",
+        "type": "debug",
+        "z": "d94e539fe4cced5c",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "5e61d42d8a32a017",
+        "type": "ui-gauge",
+        "z": "d94e539fe4cced5c",
+        "name": "OCRsensorvalue",
+        "group": "bfa056f8e2354464",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "4",
+        "height": 5,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "OCR",
+        "units": "",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ff0000"
+            },
+            {
+                "from": "2",
+                "color": "#ffbf00"
+            },
+            {
+                "from": "3",
+                "color": "#fbff00"
+            },
+            {
+                "from": "5",
+                "color": "#90ee90"
+            },
+            {
+                "from": "7",
+                "color": "#00ff00"
+            },
+            {
+                "from": "9",
+                "color": "#add8e6"
+            },
+            {
+                "from": "12",
+                "color": "#cf9fff"
+            },
+            {
+                "from": "14",
+                "color": "#0000ff"
+            }
+        ],
+        "min": 0,
+        "max": "20",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 970,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "2e7d6ad253469d79",
+        "type": "ui-chart",
+        "z": "d94e539fe4cced5c",
+        "group": "bfa056f8e2354464",
+        "name": "OCRsensorvalue",
+        "label": "OCR",
+        "order": 2,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 7,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1070,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "317a8abc8d58f856",
+        "type": "change",
+        "z": "d94e539fe4cced5c",
+        "name": "OCRsensorvalue",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.OCRsensorvalue",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 440,
+        "wires": [
+            [
+                "5e61d42d8a32a017",
+                "2e7d6ad253469d79"
+            ]
+        ]
+    },
+    {
+        "id": "094c6e4b07d7a1f5",
+        "type": "change",
+        "z": "c60959e2c796cb2d",
+        "name": "POTASSIUM",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.K",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "250a4839741ce288",
+        "type": "change",
+        "z": "c60959e2c796cb2d",
+        "name": "NITROGEN",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.N",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d394734785f9dd6c",
+        "type": "change",
+        "z": "c60959e2c796cb2d",
+        "name": "PHOSPHORUS",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.P",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "7e0f5b633f267f34",
         "type": "mqtt in",
         "z": "a3eebc9152987c0e",
@@ -3838,7 +4587,7 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 240,
+        "x": 440,
         "y": 360,
         "wires": [
             [
@@ -3849,13 +4598,14 @@
                 "a85582cb23ee5a1d",
                 "c28a9cb99e17a996",
                 "3a7b1311ada90bba",
-                "c82fa52b333b70a2",
                 "775db8791abee973",
                 "ea95d3364e628b04",
                 "df78a101893cdf58",
                 "0c1982191f0d3ddc",
-                "1ec831f49d8979bb",
-                "fa22c80bc884cfaf"
+                "fa22c80bc884cfaf",
+                "855c5767696e2a66",
+                "900cfa196b3bf8fe",
+                "9e08b237828c4b41"
             ]
         ]
     },
@@ -3865,8 +4615,10 @@
         "z": "a3eebc9152987c0e",
         "name": "pH",
         "group": "489c228f34a0409b",
-        "order": 1,
-        "width": 3,
+        "order": 6,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
         "height": 3,
         "gtype": "gauge-half",
         "gstyle": "needle",
@@ -3931,7 +4683,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "payload.pH",
+                "to": "payload.ph",
                 "tot": "msg"
             }
         ],
@@ -3981,12 +4733,14 @@
         "z": "a3eebc9152987c0e",
         "name": "TDS",
         "group": "489c228f34a0409b",
-        "order": 9,
-        "width": 3,
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
         "height": 3,
         "gtype": "gauge-half",
         "gstyle": "needle",
-        "title": "tds gauge",
+        "title": "TDS",
         "units": "PPM",
         "icon": "",
         "prefix": "",
@@ -4023,12 +4777,14 @@
         "z": "a3eebc9152987c0e",
         "name": "LDR",
         "group": "489c228f34a0409b",
-        "order": 8,
-        "width": 3,
+        "order": 7,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
         "height": 3,
         "gtype": "gauge-half",
         "gstyle": "needle",
-        "title": "BRIGHTNESS",
+        "title": "Brightness",
         "units": "%",
         "icon": "",
         "prefix": "",
@@ -4069,7 +4825,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "payload.ldr",
+                "to": "payload.light",
                 "tot": "msg"
             }
         ],
@@ -4092,17 +4848,23 @@
         "z": "a3eebc9152987c0e",
         "name": "soil quality",
         "group": "489c228f34a0409b",
-        "order": 7,
-        "width": 3,
+        "order": 12,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
         "height": 3,
         "gtype": "gauge-half",
         "gstyle": "needle",
-        "title": "soil quality",
+        "title": "Soil Quality",
         "units": "",
         "icon": "sprout",
         "prefix": "",
         "suffix": "",
         "segments": [
+            {
+                "from": "-1",
+                "color": "#000000"
+            },
             {
                 "from": "0",
                 "color": "#ff0000"
@@ -4118,14 +4880,10 @@
             {
                 "from": "3",
                 "color": "#00ff00"
-            },
-            {
-                "from": "4",
-                "color": "#11ff00"
             }
         ],
-        "min": 0,
-        "max": "4",
+        "min": "-1",
+        "max": "3",
         "sizeThickness": 16,
         "sizeGap": 4,
         "sizeKeyThickness": 8,
@@ -4146,7 +4904,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "payload.soil_quality",
+                "to": "payload.soilQuality",
                 "tot": "msg"
             }
         ],
@@ -4170,8 +4928,10 @@
         "z": "a3eebc9152987c0e",
         "name": "temperature",
         "group": "489c228f34a0409b",
-        "order": 3,
-        "width": 3,
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
         "height": 3,
         "gtype": "gauge-half",
         "gstyle": "needle",
@@ -4216,7 +4976,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "payload.tempC",
+                "to": "payload.temperature",
                 "tot": "msg"
             }
         ],
@@ -4239,12 +4999,14 @@
         "z": "a3eebc9152987c0e",
         "name": "soil moisture",
         "group": "489c228f34a0409b",
-        "order": 4,
-        "width": 3,
+        "order": 9,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
         "height": 3,
         "gtype": "gauge-half",
         "gstyle": "needle",
-        "title": "soil moisture",
+        "title": "Soil Moisture",
         "units": "%",
         "icon": "",
         "prefix": "",
@@ -4309,11 +5071,13 @@
         "name": "HUMIDITY",
         "group": "489c228f34a0409b",
         "order": 2,
-        "width": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
         "height": 3,
         "gtype": "gauge-half",
         "gstyle": "needle",
-        "title": "HUMIDITY",
+        "title": "Humidity",
         "units": "",
         "icon": "",
         "prefix": "",
@@ -4380,129 +5144,6 @@
         ]
     },
     {
-        "id": "958a3077907d855e",
-        "type": "ui-gauge",
-        "z": "a3eebc9152987c0e",
-        "name": "Optical Character Recognition(OCR)",
-        "group": "489c228f34a0409b",
-        "order": 6,
-        "width": 3,
-        "height": 3,
-        "gtype": "gauge-half",
-        "gstyle": "needle",
-        "title": "OCR",
-        "units": "",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "0",
-                "color": "#ff0000"
-            },
-            {
-                "from": "1",
-                "color": "#00ff00"
-            },
-            {
-                "from": "2",
-                "color": "#000000"
-            }
-        ],
-        "min": "0",
-        "max": "2",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "",
-        "x": 1250,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "c82fa52b333b70a2",
-        "type": "change",
-        "z": "a3eebc9152987c0e",
-        "name": "OCR",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.ocr",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 790,
-        "y": 500,
-        "wires": [
-            [
-                "958a3077907d855e"
-            ]
-        ]
-    },
-    {
-        "id": "4f8f47937c441ad6",
-        "type": "ui-gauge",
-        "z": "a3eebc9152987c0e",
-        "name": "POTASSIUM",
-        "group": "489c228f34a0409b",
-        "order": 12,
-        "width": 4,
-        "height": 4,
-        "gtype": "gauge-34",
-        "gstyle": "needle",
-        "title": "POTASSIUM",
-        "units": "PPM",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "0",
-                "color": "#000000"
-            },
-            {
-                "from": "5",
-                "color": "#f19009"
-            },
-            {
-                "from": "15",
-                "color": "#f0ff1a"
-            },
-            {
-                "from": "25",
-                "color": "#4dfb0e"
-            },
-            {
-                "from": "50",
-                "color": "#08bf82"
-            },
-            {
-                "from": "100",
-                "color": "#ff0000"
-            }
-        ],
-        "min": "0",
-        "max": "100",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "",
-        "x": 1170,
-        "y": 580,
-        "wires": []
-    },
-    {
         "id": "775db8791abee973",
         "type": "change",
         "z": "a3eebc9152987c0e",
@@ -4525,7 +5166,7 @@
         "y": 580,
         "wires": [
             [
-                "4f8f47937c441ad6"
+                "db117f97e1da3af7"
             ]
         ]
     },
@@ -4552,12 +5193,14 @@
         "z": "a3eebc9152987c0e",
         "name": "NITROGEN",
         "group": "489c228f34a0409b",
-        "order": 11,
+        "order": 8,
+        "value": "payload",
+        "valueType": "msg",
         "width": 4,
-        "height": 4,
-        "gtype": "gauge-34",
+        "height": 3,
+        "gtype": "gauge-half",
         "gstyle": "needle",
-        "title": "NITROGEN",
+        "title": "Nitrogen",
         "units": "",
         "icon": "",
         "prefix": "",
@@ -4637,7 +5280,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "payload.distance",
+                "to": "payload.waterLevel",
                 "tot": "msg"
             }
         ],
@@ -4660,9 +5303,11 @@
         "z": "a3eebc9152987c0e",
         "name": "water level",
         "group": "489c228f34a0409b",
-        "order": 5,
+        "order": 4,
+        "value": "payload",
+        "valueType": "msg",
         "width": 3,
-        "height": 5,
+        "height": 12,
         "gtype": "gauge-tank",
         "gstyle": "needle",
         "title": "Water level",
@@ -4709,125 +5354,6 @@
         "wires": []
     },
     {
-        "id": "1ec831f49d8979bb",
-        "type": "change",
-        "z": "a3eebc9152987c0e",
-        "name": "fertilizer",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.sol",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 800,
-        "y": 700,
-        "wires": [
-            [
-                "61c0810258208ccb"
-            ]
-        ]
-    },
-    {
-        "id": "61c0810258208ccb",
-        "type": "ui-gauge",
-        "z": "a3eebc9152987c0e",
-        "name": "fertilizer",
-        "group": "489c228f34a0409b",
-        "order": 10,
-        "width": 3,
-        "height": 5,
-        "gtype": "gauge-tank",
-        "gstyle": "needle",
-        "title": "Fertilizer level",
-        "units": "units",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "100",
-                "color": "#5cd65c"
-            },
-            {
-                "from": "50",
-                "color": "#ffc800"
-            },
-            {
-                "from": "0",
-                "color": "#ea5353"
-            }
-        ],
-        "min": 0,
-        "max": "100",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "",
-        "x": 1160,
-        "y": 700,
-        "wires": []
-    },
-    {
-        "id": "2d46fb2d06e85d37",
-        "type": "ui-gauge",
-        "z": "a3eebc9152987c0e",
-        "name": "PHOSPHORUS",
-        "group": "489c228f34a0409b",
-        "order": 13,
-        "width": 4,
-        "height": 4,
-        "gtype": "gauge-34",
-        "gstyle": "needle",
-        "title": "PHOSPHORUS",
-        "units": "PPM",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "0",
-                "color": "#181b19"
-            },
-            {
-                "from": "50",
-                "color": "#272825"
-            },
-            {
-                "from": "120",
-                "color": "#1eff00"
-            },
-            {
-                "from": "250",
-                "color": "#fd1212"
-            },
-            {
-                "from": "300",
-                "color": "#fb1818"
-            }
-        ],
-        "min": "0",
-        "max": "300",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "",
-        "x": 1180,
-        "y": 620,
-        "wires": []
-    },
-    {
         "id": "fa22c80bc884cfaf",
         "type": "change",
         "z": "a3eebc9152987c0e",
@@ -4850,7 +5376,7 @@
         "y": 620,
         "wires": [
             [
-                "2d46fb2d06e85d37"
+                "1387af1fab28f527"
             ]
         ]
     },
@@ -4862,7 +5388,7 @@
         "page": "",
         "ui": "",
         "name": "Test",
-        "order": 14,
+        "order": 15,
         "width": 0,
         "height": 0,
         "head": "",
@@ -4872,11 +5398,1554 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 970,
+        "x": 1150,
         "y": 320,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "855c5767696e2a66",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "turbidity",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.turbidity",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 700,
+        "wires": [
+            [
+                "9a61faf40ac9c7d2"
+            ]
+        ]
+    },
+    {
+        "id": "9a61faf40ac9c7d2",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "turbidity",
+        "group": "489c228f34a0409b",
+        "order": 5,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Turbidity",
+        "units": "PPM",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "50",
+                "color": "#00ff00"
+            },
+            {
+                "from": "300",
+                "color": "#b1e49b"
+            },
+            {
+                "from": "600",
+                "color": "#ffed29"
+            },
+            {
+                "from": "1000",
+                "color": "#e70808"
+            },
+            {
+                "from": "1500",
+                "color": "#ff0000"
+            }
+        ],
+        "min": 0,
+        "max": "1500",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1160,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "db117f97e1da3af7",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "pottasium",
+        "group": "489c228f34a0409b",
+        "order": 11,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Potassium",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": 10,
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1160,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "1387af1fab28f527",
+        "type": "ui-gauge",
+        "z": "a3eebc9152987c0e",
+        "name": "phosphorus",
+        "group": "489c228f34a0409b",
+        "order": 10,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Phosphorus",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": 10,
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1170,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "900cfa196b3bf8fe",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "water pump",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.waterPump",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 740,
+        "wires": [
+            [
+                "c2503d1dacef4fa1"
+            ]
+        ]
+    },
+    {
+        "id": "e5c3ed9390b5eebf",
+        "type": "ui-text",
+        "z": "a3eebc9152987c0e",
+        "group": "489c228f34a0409b",
+        "order": 13,
+        "width": 4,
+        "height": 0,
+        "name": "water pump",
+        "label": "Water pump",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 1170,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "11841ea54841a5bc",
+        "type": "inject",
+        "z": "a3eebc9152987c0e",
+        "name": "Turn ON",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Motor ON",
+        "payloadType": "str",
+        "x": 980,
+        "y": 780,
+        "wires": [
+            [
+                "e5c3ed9390b5eebf"
+            ]
+        ]
+    },
+    {
+        "id": "554da04775089dbf",
+        "type": "inject",
+        "z": "a3eebc9152987c0e",
+        "name": "Turn OFF",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Motor OFF",
+        "payloadType": "str",
+        "x": 980,
+        "y": 840,
+        "wires": [
+            [
+                "e5c3ed9390b5eebf"
+            ]
+        ]
+    },
+    {
+        "id": "9e08b237828c4b41",
+        "type": "change",
+        "z": "a3eebc9152987c0e",
+        "name": "fertilizerPump",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.fertilizerPump",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 880,
+        "wires": [
+            [
+                "0b3998954fc44efb"
+            ]
+        ]
+    },
+    {
+        "id": "21b30e3790560668",
+        "type": "ui-text",
+        "z": "a3eebc9152987c0e",
+        "group": "489c228f34a0409b",
+        "order": 14,
+        "width": 4,
+        "height": 2,
+        "name": "fertilizer Pump",
+        "label": "Fertilizer Pump",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 1260,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "137945487b07197b",
+        "type": "inject",
+        "z": "a3eebc9152987c0e",
+        "name": "Turn ON",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Motor ON",
+        "payloadType": "str",
+        "x": 980,
+        "y": 920,
+        "wires": [
+            [
+                "21b30e3790560668"
+            ]
+        ]
+    },
+    {
+        "id": "52c4aa0f5f4cbf52",
+        "type": "inject",
+        "z": "a3eebc9152987c0e",
+        "name": "Turn OFF",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Motor OFF",
+        "payloadType": "str",
+        "x": 980,
+        "y": 980,
+        "wires": [
+            [
+                "21b30e3790560668"
+            ]
+        ]
+    },
+    {
+        "id": "c2503d1dacef4fa1",
+        "type": "function",
+        "z": "a3eebc9152987c0e",
+        "name": "function 14",
+        "func": "if (msg.payload === true) {\n    msg.payload = \"Motor ON\";\n} else {\n    msg.payload = \"Motor OFF\";\n}\nreturn msg;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 740,
+        "wires": [
+            [
+                "e5c3ed9390b5eebf"
+            ]
+        ]
+    },
+    {
+        "id": "0b3998954fc44efb",
+        "type": "function",
+        "z": "a3eebc9152987c0e",
+        "name": "function 15",
+        "func": "if (msg.payload === true) {\n    msg.payload = \"Motor ON\";\n} else {\n    msg.payload = \"Motor OFF\";\n}\nreturn msg;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 880,
+        "wires": [
+            [
+                "21b30e3790560668"
+            ]
+        ]
+    },
+    {
+        "id": "bc791f1063e2ec80",
+        "type": "mqtt in",
+        "z": "4c51ccca9eebd239",
+        "name": "",
+        "topic": "mything-io",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "d16e753b1c0fb4e4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 300,
+        "y": 360,
+        "wires": [
+            [
+                "69bfd14bf3dc1395",
+                "0ac86421e11ee7d3",
+                "dfc445e56bb60cfd",
+                "d7384c3bfd6b4178",
+                "6663e3ab69ba585e",
+                "77daeb2b8d99b580",
+                "59b0438f4bdaa701",
+                "b3486272e0b44cbe",
+                "464684eb06ec18a8",
+                "58babe61069b9970",
+                "2cc73c97a2cf55b0",
+                "4790d92418f4089d",
+                "fcf6ab3fdc52a463"
+            ]
+        ]
+    },
+    {
+        "id": "9d3dd57e8ed73cf2",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "pH chart",
+        "label": "pHchart",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "dash",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1080,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "491cc51a73b402a6",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "TDS Chart",
+        "label": "TDS chart",
+        "order": 2,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "dash",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1090,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2dbb9392a121ad04",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "LDR chart",
+        "label": "LDR chart",
+        "order": 3,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "dash",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1080,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "245360365e728392",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "Soil Quaity",
+        "label": "SOIL QUALITY",
+        "order": 5,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "dash",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1090,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c70cb62529a0f2af",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "Soil moisture",
+        "label": "Soil moisture",
+        "order": 10,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "dash",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1090,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ba6c7a21947e85da",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "temperature chart",
+        "label": "temp chart",
+        "order": 11,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "TIme",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "HH:mm:ss",
+        "xmin": "0",
+        "xmax": "100",
+        "yAxisLabel": "Temperature",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "dash",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": "30",
+        "removeOlderUnit": "1",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1110,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6386a3e602ab1789",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "NITROGEN",
+        "label": "NITROGEN",
+        "order": 8,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "dash",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1090,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2bf19cf15971523",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "POTASSIUM chart",
+        "label": "POTASSIUM",
+        "order": 9,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "dash",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1110,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64aedeeb03235bf7",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "PHOSPHORUS",
+        "label": "PHOSPHORUS",
+        "order": 7,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "dash",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1100,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c3f3ea3614662e8",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "water level",
+        "label": "water level chart",
+        "order": 6,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "dash",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1090,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "421f5a48c25c9361",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "fertilizer chart",
+        "label": "Fertilizer chart",
+        "order": 4,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "dash",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#d4f000",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#fbff00"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#17eeca"
+        ],
+        "gridColorDefault": false,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1100,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "69bfd14bf3dc1395",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "pH",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.pH",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 180,
+        "wires": [
+            [
+                "9d3dd57e8ed73cf2"
+            ]
+        ]
+    },
+    {
+        "id": "0ac86421e11ee7d3",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "TDS",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tds",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 220,
+        "wires": [
+            [
+                "491cc51a73b402a6"
+            ]
+        ]
+    },
+    {
+        "id": "dfc445e56bb60cfd",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "LDR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ldr",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 260,
+        "wires": [
+            [
+                "2dbb9392a121ad04"
+            ]
+        ]
+    },
+    {
+        "id": "d7384c3bfd6b4178",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "soil quality",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.soil_quality",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 300,
+        "wires": [
+            [
+                "245360365e728392"
+            ]
+        ]
+    },
+    {
+        "id": "6663e3ab69ba585e",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "temperature",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tempC",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 340,
+        "wires": [
+            [
+                "ba6c7a21947e85da"
+            ]
+        ]
+    },
+    {
+        "id": "77daeb2b8d99b580",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "Soil moisture",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.soilMoisture",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 380,
+        "wires": [
+            [
+                "c70cb62529a0f2af"
+            ]
+        ]
+    },
+    {
+        "id": "59b0438f4bdaa701",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "Humidity",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.humidity",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 420,
+        "wires": [
+            [
+                "3ae38b3f019f57c2"
+            ]
+        ]
+    },
+    {
+        "id": "464684eb06ec18a8",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "POTASSIUM",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.K",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 540,
+        "wires": [
+            [
+                "e2bf19cf15971523"
+            ]
+        ]
+    },
+    {
+        "id": "b3486272e0b44cbe",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "NITROGEN",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.N",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 500,
+        "wires": [
+            [
+                "6386a3e602ab1789"
+            ]
+        ]
+    },
+    {
+        "id": "2cc73c97a2cf55b0",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "water level",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.distance",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 620,
+        "wires": [
+            [
+                "1c3f3ea3614662e8"
+            ]
+        ]
+    },
+    {
+        "id": "4790d92418f4089d",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "fertilizer",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.sol",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 660,
+        "wires": [
+            [
+                "421f5a48c25c9361"
+            ]
+        ]
+    },
+    {
+        "id": "58babe61069b9970",
+        "type": "change",
+        "z": "4c51ccca9eebd239",
+        "name": "PHOSPHORUS",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.P",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 580,
+        "wires": [
+            [
+                "64aedeeb03235bf7"
+            ]
+        ]
+    },
+    {
+        "id": "3ae38b3f019f57c2",
+        "type": "ui-chart",
+        "z": "4c51ccca9eebd239",
+        "group": "9ec07271f2a5b2d1",
+        "name": "HUMIDITY",
+        "label": "HUMIDITY chart",
+        "order": 12,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "dash",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1090,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fcf6ab3fdc52a463",
+        "type": "debug",
+        "z": "4c51ccca9eebd239",
+        "name": "debug1234",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 140,
+        "wires": []
     },
     {
         "id": "25c8190322001982",
@@ -5662,1213 +7731,5 @@
                 "8569397ee161f02a"
             ]
         ]
-    },
-    {
-        "id": "bc791f1063e2ec80",
-        "type": "mqtt in",
-        "z": "4c51ccca9eebd239",
-        "name": "",
-        "topic": "mything-io",
-        "qos": "1",
-        "datatype": "auto-detect",
-        "broker": "d16e753b1c0fb4e4",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 300,
-        "y": 360,
-        "wires": [
-            [
-                "69bfd14bf3dc1395",
-                "0ac86421e11ee7d3",
-                "dfc445e56bb60cfd",
-                "d7384c3bfd6b4178",
-                "6663e3ab69ba585e",
-                "77daeb2b8d99b580",
-                "59b0438f4bdaa701",
-                "38178e31aa57c1aa",
-                "b3486272e0b44cbe",
-                "464684eb06ec18a8",
-                "58babe61069b9970",
-                "2cc73c97a2cf55b0",
-                "4790d92418f4089d",
-                "fcf6ab3fdc52a463"
-            ]
-        ]
-    },
-    {
-        "id": "9d3dd57e8ed73cf2",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "pH chart",
-        "label": "pHchart",
-        "order": 1,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1080,
-        "y": 180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "491cc51a73b402a6",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "TDS Chart",
-        "label": "TDS chart",
-        "order": 2,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "",
-        "ymax": "",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#666666"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#e5e5e5"
-        ],
-        "gridColorDefault": true,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1090,
-        "y": 220,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2dbb9392a121ad04",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "LDR chart",
-        "label": "LDR chart",
-        "order": 3,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1080,
-        "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "245360365e728392",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "Soil Quaity",
-        "label": "SOIL QUALITY",
-        "order": 5,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1090,
-        "y": 300,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c70cb62529a0f2af",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "Soil moisture",
-        "label": " EC chart",
-        "order": 10,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1090,
-        "y": 380,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ba6c7a21947e85da",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "temperature chart",
-        "label": "temp chart",
-        "order": 11,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1110,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6386a3e602ab1789",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "NITROGEN",
-        "label": "NITROGEN",
-        "order": 8,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1090,
-        "y": 500,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e2bf19cf15971523",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "POTASSIUM chart",
-        "label": "POTASSIUM",
-        "order": 9,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1110,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "64aedeeb03235bf7",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "PHOSPHORUS",
-        "label": "PHOSPHORUS",
-        "order": 7,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1100,
-        "y": 580,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1c3f3ea3614662e8",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "water level",
-        "label": "water level chart",
-        "order": 6,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1090,
-        "y": 620,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "421f5a48c25c9361",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "fertilizer chart",
-        "label": "Fertilizer chart",
-        "order": 4,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "0",
-        "ymax": "100",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#d4f000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#fbff00"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#17eeca"
-        ],
-        "gridColorDefault": false,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1100,
-        "y": 660,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "69bfd14bf3dc1395",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "pH",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.pH",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 830,
-        "y": 180,
-        "wires": [
-            [
-                "9d3dd57e8ed73cf2"
-            ]
-        ]
-    },
-    {
-        "id": "0ac86421e11ee7d3",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "TDS",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.tds",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 830,
-        "y": 220,
-        "wires": [
-            [
-                "491cc51a73b402a6"
-            ]
-        ]
-    },
-    {
-        "id": "dfc445e56bb60cfd",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "LDR",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.ldr",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 830,
-        "y": 260,
-        "wires": [
-            [
-                "2dbb9392a121ad04"
-            ]
-        ]
-    },
-    {
-        "id": "d7384c3bfd6b4178",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "soil quality",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.soil_quality",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 850,
-        "y": 300,
-        "wires": [
-            [
-                "245360365e728392"
-            ]
-        ]
-    },
-    {
-        "id": "6663e3ab69ba585e",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "temperature",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.tempC",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 850,
-        "y": 340,
-        "wires": [
-            [
-                "ba6c7a21947e85da"
-            ]
-        ]
-    },
-    {
-        "id": "77daeb2b8d99b580",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "Soil moisture",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.soilMoisture",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 850,
-        "y": 380,
-        "wires": [
-            [
-                "c70cb62529a0f2af"
-            ]
-        ]
-    },
-    {
-        "id": "59b0438f4bdaa701",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "Humidity",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.humidity",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 840,
-        "y": 420,
-        "wires": [
-            [
-                "3ae38b3f019f57c2"
-            ]
-        ]
-    },
-    {
-        "id": "38178e31aa57c1aa",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "OCR",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.ocr",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 830,
-        "y": 460,
-        "wires": [
-            [
-                "aaf7a09a9738ab0b"
-            ]
-        ]
-    },
-    {
-        "id": "464684eb06ec18a8",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "POTASSIUM",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.K",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 850,
-        "y": 540,
-        "wires": [
-            [
-                "e2bf19cf15971523"
-            ]
-        ]
-    },
-    {
-        "id": "b3486272e0b44cbe",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "NITROGEN",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.N",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 850,
-        "y": 500,
-        "wires": [
-            [
-                "6386a3e602ab1789"
-            ]
-        ]
-    },
-    {
-        "id": "2cc73c97a2cf55b0",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "water level",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.distance",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 850,
-        "y": 620,
-        "wires": [
-            [
-                "1c3f3ea3614662e8"
-            ]
-        ]
-    },
-    {
-        "id": "4790d92418f4089d",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "fertilizer",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.sol",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 840,
-        "y": 660,
-        "wires": [
-            [
-                "421f5a48c25c9361"
-            ]
-        ]
-    },
-    {
-        "id": "58babe61069b9970",
-        "type": "change",
-        "z": "4c51ccca9eebd239",
-        "name": "PHOSPHORUS",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.P",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 860,
-        "y": 580,
-        "wires": [
-            [
-                "64aedeeb03235bf7"
-            ]
-        ]
-    },
-    {
-        "id": "3ae38b3f019f57c2",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "HUMIDITY",
-        "label": "HUMIDITY chart",
-        "order": 12,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "",
-        "ymax": "",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#666666"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#e5e5e5"
-        ],
-        "gridColorDefault": true,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1130,
-        "y": 420,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "aaf7a09a9738ab0b",
-        "type": "ui-chart",
-        "z": "4c51ccca9eebd239",
-        "group": "9ec07271f2a5b2d1",
-        "name": "OCR ",
-        "label": "OCR chart",
-        "order": 13,
-        "chartType": "line",
-        "category": "topic",
-        "categoryType": "msg",
-        "xAxisLabel": "",
-        "xAxisProperty": "",
-        "xAxisPropertyType": "timestamp",
-        "xAxisType": "time",
-        "xAxisFormat": "",
-        "xAxisFormatType": "auto",
-        "xmin": "",
-        "xmax": "",
-        "yAxisLabel": "",
-        "yAxisProperty": "payload",
-        "yAxisPropertyType": "msg",
-        "ymin": "",
-        "ymax": "",
-        "bins": 10,
-        "action": "append",
-        "stackSeries": false,
-        "pointShape": "circle",
-        "pointRadius": 4,
-        "showLegend": true,
-        "removeOlder": 1,
-        "removeOlderUnit": "3600",
-        "removeOlderPoints": "",
-        "colors": [
-            "#0095ff",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#a347e1",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "textColor": [
-            "#666666"
-        ],
-        "textColorDefault": true,
-        "gridColor": [
-            "#e5e5e5"
-        ],
-        "gridColorDefault": true,
-        "width": 6,
-        "height": 8,
-        "className": "",
-        "interpolation": "linear",
-        "x": 1110,
-        "y": 460,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fcf6ab3fdc52a463",
-        "type": "debug",
-        "z": "4c51ccca9eebd239",
-        "name": "debug1234",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 850,
-        "y": 140,
-        "wires": []
     }
 ]
